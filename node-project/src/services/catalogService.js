@@ -57,6 +57,9 @@ class CatalogService {
                 weight: item.offer?.quantity?.size?.from || 0,
                 weight_unit: item.offer?.quantity?.unit?.symbol || "",
                 store: catalog.name || "Ukendt butik",
+                run_from: item.offer?.run_from || "Ukendt startdato",
+                run_till: item.offer?.run_till|| "Ukendt slutdato",
+
             }));
             return products;
         } catch (error) {
