@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('node_modules/dotenv').config();
 
 module.exports = {
     apiKey: process.env.API_KEY,

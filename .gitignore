@@ -33,3 +33,7 @@ jspm_packages/
 
 # Operating system files
 Thumbs.db
+
+#Frontend testing
+*.html
+*.css
