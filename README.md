@@ -43,10 +43,9 @@ Cheap-meals
 ├── .env                        # Environment variables
 ├── .gitignore                  # Git ignore file
 └── README.md                   # Project documentation
+
+
 ```
-                   # Project documentation
-
-
 ## Setup Instructions
 
 1. **Clone the repository:**
