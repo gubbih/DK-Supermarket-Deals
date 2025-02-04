@@ -14,7 +14,8 @@ This project is designed to fetch and process catalogs from Danish supermarkets 
 ## TODO List
 - [ ] Add a start and end date
 - [ ] Run the functions once a day/when ever a new catalog is out
-- [ ] 
+- [ ] remove console.log
+- [ ] find a way to get coop 365
 - [ ] Double check if the wiegt is corret
 - [ ] Implement user authentication
 - [ ] Add unit tests for services
