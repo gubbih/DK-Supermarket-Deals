@@ -59,11 +59,7 @@ This project is designed to fetch and process catalogs from Danish supermarkets 
    ```
 
 3. **Configure environment variables:**
-   Create a 
-
-.env
-
- file in the root directory and add the following:
+   Create a .env file in the root directory and add the following with your own data:
    ```env
    SHOPGUN_API_KEY=API_KEY
    SHOPGUN_TRACK_ID=TRACK_ID
