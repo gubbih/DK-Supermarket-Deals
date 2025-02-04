@@ -1,14 +1,6 @@
-Collecting workspace information
-
-Sure, here's the updated 
-
-README.md
-
- with a TODO list at the top and improved structure:
-
 # Node Project for Danish Supermarket Catalogs
 
-This project is designed to fetch and process catalogs from Danish supermarkets using the Shopgun SDK. It provides an API to retrieve catalog data and offers, which can be stored in a database for further use in other applications.
+This project is designed to fetch and process catalogs from Danish supermarkets using the "etilbudsavis.dk/" API. The API to retrieve catalog data and offers, which can be stored in a database for further use in other applications.
 
 ```markdown
 ## TODO List
