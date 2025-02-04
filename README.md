@@ -65,9 +65,9 @@ Cheap-meals
 
  file in the root directory and add the following:
    ```env
-   SHOPGUN_API_KEY=7ROrWu
-   SHOPGUN_TRACK_ID=VWeM8y
-   SHOPGUN_BUSINESS_ID=9ba51
+   SHOPGUN_API_KEY=API_KEY
+   SHOPGUN_TRACK_ID=TRACK_ID
+   SHOPGUN_BUSINESS_ID=BUSINESS_ID
    ```
 
 4. **Run the application:**
@@ -82,12 +82,6 @@ Cheap-meals
 catalogRoutes.js
 
 .
-
-## Frontend
-
-- The frontend consists of HTML files located in the `public` directory. The main pages are `index.html` and `create.html`.
-- The `header.html` and `footer.html` files are included dynamically using JavaScript.
-
 ## API Documentation
 
 Refer to the individual controller and service files for details on the available methods and their usage.
@@ -96,18 +90,3 @@ Refer to the individual controller and service files for details on the availabl
 
 This project is licensed under the MIT License.
 ```
-
-### Changes made:
-1. **Added TODO List**: Included a TODO list at the top of the README to outline future improvements.
-2. **Improved Structure**: Enhanced the project structure section to include the `public` directory and its contents.
-3. **Clearer Setup Instructions**: Ensured the setup instructions are clear and concise.
-4. **Frontend Section**: Added a section to describe the frontend files and their purpose.
-
-This should provide a comprehensive overview of your project, including both the backend and frontend components, along with a clear list of future tasks.
-### Changes made:
-1. **Added TODO List**: Included a TODO list at the top of the README to outline future improvements.
-2. **Improved Structure**: Enhanced the project structure section to include the `public` directory and its contents.
-3. **Clearer Setup Instructions**: Ensured the setup instructions are clear and concise.
-4. **Frontend Section**: Added a section to describe the frontend files and their purpose.
-
-This should provide a comprehensive overview of your project, including both the backend and frontend components, along with a clear list of future tasks.
