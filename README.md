@@ -27,8 +27,8 @@ This project is designed to fetch and process catalogs from Danish supermarkets 
 ```
 ## Project Structure
 
-
-Get offers
+```
+Cheap-meals
 ├── src
 │   ├── index.js                # Entry point of the application
 │   ├── config
@@ -51,10 +51,9 @@ Get offers
 ├── .env                        # Environment variables
 ├── .gitignore                  # Git ignore file
 └── README.md                   # Project documentation
-
-
-                   # Project documentation
 ```
+                   # Project documentation
+
 
 ## Setup Instructions
 
