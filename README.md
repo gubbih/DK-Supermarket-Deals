@@ -6,11 +6,11 @@ README.md
 
  with a TODO list at the top and improved structure:
 
-```markdown
 # Node Project for Danish Supermarket Catalogs
 
 This project is designed to fetch and process catalogs from Danish supermarkets using the Shopgun SDK. It provides an API to retrieve catalog data and offers, which can be stored in a database for further use in other applications.
 
+```markdown
 ## TODO List
 - [ ] Add a start and end date
 - [ ] Run the functions once a day/when ever a new catalog is out
@@ -24,10 +24,10 @@ This project is designed to fetch and process catalogs from Danish supermarkets 
 - [ ] Enhance frontend design
 - [ ] Add pagination to API responses
 
-
+```
 ## Project Structure
 
-```
+
 Get offers
 ├── src
 │   ├── index.js                # Entry point of the application
