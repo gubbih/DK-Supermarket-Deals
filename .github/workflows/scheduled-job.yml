@@ -38,7 +38,7 @@ jobs:
           echo "API_KEY=${{ env.API_KEY }}"
           echo "TRACK_ID=${{ env.TRACK_ID }}"
           echo "BUSINESS_IDS=${{ env.BUSINESS_IDS }}"
-          echo "FIREBASE_DATABASE_URL=${{ env.FIREBASE_API_KEY }}"
+          echo "FIREBASE_DATABASE_URL=${{ env.FIREBASE_DATABASE_URL }}"
 
       - name: Run script
         run: npm start
