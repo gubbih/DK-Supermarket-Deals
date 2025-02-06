@@ -2,8 +2,8 @@ name: Run JavaScript script
 
 on:
   schedule:
-    - cron: '0 2 * * 0,1,5'  # Runs at 02:00 UTC on Sunday, Monday, and Friday
-  workflow_dispatch:  # Allows manual triggering
+    - cron: '0 2 * * 0,1,5'
+  workflow_dispatch:
 
 env:
   GLOBAL_VAR: "This is a global variable"
@@ -34,18 +34,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Debug Environment Variables
-        run: |
-          echo "GLOBAL_VAR=${{ env.GLOBAL_VAR }}"
-          echo "JOB_VAR=${{ env.JOB_VAR }}"
-          echo "API_KEY=${{ env.API_KEY }}"
-          echo "TRACK_ID=${{ env.TRACK_ID }}"
-          echo "BUSINESS_IDS=${{ env.BUSINESS_IDS }}"
-          echo "FIREBASE_DATABASE_URL=${{ env.FIREBASE_DATABASE_URL }}"
 
       - name: Install dependencies
         run: npm install
