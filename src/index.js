@@ -4,12 +4,15 @@ const catalogController = new CatalogController();
 
 async function main() {
     try {
-        // used to upload to firebase, needs a function to only upload when needed
-        //await catalogController.uploadToFirebase('offers.json', 'offers');
-        console.log("Uploading to firebase");
-
-        // only needs to run once or if new data is added (hardcoded data)
-        //await catalogController.uploadToFirebase('Foodcompents.json', "foodcompents");
+        // Check if a specific condition is met before uploading to Firebase
+        const shouldUpload = true; // Replace this with your condition
+        if (shouldUpload) {
+            await catalogController.uploadToFirebase('offers.json', 'offers');
+            console.log("Uploaded offers.json to Firebase");
+            
+            await catalogController.uploadToFirebase('Foodcompents.json', "foodcompents");
+            console.log("Uploaded Foodcompents.json to Firebase");
+        }
     } catch (error) {
         console.error("Error uploading to Firebase:", error);
         process.exit(1); // Exit with a failure code
