@@ -1,0 +1,60 @@
+[
+  {
+    "category": "Proteiner",
+    "items": [
+      "Kyllingebryst", "Kyllingelår", "Kyllingevinger", "Hel kylling", "Kyllingefilet", "Kyllingeinderfilet", "Hakket oksekød", "Oksemørbrad", "Oksebøf", "Ribeye steak", "Svinekotelet", "Hakket svinekød", "Bacon", "Flæskesteg", "Svinemørbrad", "Fiskefilet", "Laks", "Torsk", "Tun", "Rejer", "Blæksprutte", "Æg", "Tofu", "Tempeh", "Linser", "Kikærter", "Bønner", "Nødder", "Seitan", "Kalkunbryst", "Kalkunlår", "Andebryst", "Lammebøf", "Kalveculotte", "Spegepølse", "Pålægssalat", "Fiskefrikadeller"
+    ]
+  },
+  {
+    "category": "Kulhydrater",
+    "items": [
+      "Hvide ris", "Brune ris", "Basmatiris", "Jasminris", "Pasta", "Fuldkornspasta", "Brød", "Rugbrød", "Franskbrød", "Kartofler", "Bagekartofler", "Søde kartofler", "Havregryn", "Dåsemajs", "Majsmel", "Quinoa", "Byg", "Couscous", "Polenta", "Nudler", "Burgerboller", "Pizzadej"
+    ]
+  },
+  {
+    "category": "Fedtstoffer & Olier",
+    "items": [
+      "Smør", "Saltet smør", "Usaltet smør", "Olivenolie", "Ekstra jomfru olivenolie", "Vegetabilsk olie", "Rapsolie", "Kokosolie", "Avocado", "Ost", "Fetaost", "Cheddarost", "Mozzarella", "Parmesan", "Frø", "Solsikkefrø", "Chiafrø", "Hørfrø", "Lard", "Ghee", "Nøddesmør", "Peanutbutter", "Mandelbutter", "Kokosmælk", "Madlavningsfløde"
+    ]
+  },
+  {
+    "category": "Grøntsager",
+    "items": [
+      "Gulerod", "Tomat", "Cherrytomater", "Løg", "Rødløg", "Forårsløg", "Hvidløg", "Broccoli", "Blomkål", "Agurk", "Salat", "Romainesalat", "Spinat", "Kål", "Hvidkål", "Rødkål", "Savoykål", "Peberfrugt", "Champignon", "Portobello", "Dåsetomater", "Syltede rødbeder", "Syltede agurker", "Aubergine", "Squash", "Spinat fettuccine"
+    ]
+  },
+  {
+    "category": "Frugter",
+    "items": [
+      "Æble", "Grønne æbler", "Røde æbler", "Banan", "Appelsin", "Blodappelsin", "Vindrue", "Jordbær", "Vandmelon", "Cantaloupe", "Pære", "Ananas", "Mango", "Blåbær", "Hindbær", "Brombær", "Kirsebær", "Kiwi", "Papaya", "Granatæble", "Blommer"
+    ]
+  },
+  {
+    "category": "Mejeriprodukter",
+    "items": [
+      "Mælk", "Letmælk", "Skummetmælk", "Sødmælk", "Ost", "Yoghurt", "Græsk yoghurt", "Smør", "Fløde", "Piskefløde", "Madlavningsfløde", "Hytteost", "Creme fraiche", "Ghee", "Kefir", "Valleprotein", "Philadelphia", "Mascarpone", "Revet cheddar", "Proteindrik"
+    ]
+  },
+  {
+    "category": "Drikkevarer",
+    "items": [
+      "Vand", "Danskvand", "Juice", "Appelsinjuice", "Æblejuice", "Granatæblejuice", "Te", "Grøn te", "Sort te", "Kaffe", "Espresso", "Mælk", "Plantebaseret mælk", "Havremælk", "Mandelmælk", "Smoothie", "Sodavand", "Cola", "Energidrik", "Øl", "Vin", "Rødvin", "Hvidvin", "Capri-Sun"
+    ]
+  },
+  {
+    "category": "Tilsætningsstoffer & Krydderier",
+    "items": [
+      "Eddike", "Æblecidereddike", "Balsamicoeddike", "Sojasauce", "Lys sojasauce", "Mørk sojasauce", "Ketchup", "Sennep", "Dijonsennep", "Mayonnaise", "BBQ-sauce", "Chilisauce", "Sød chilisauce", "Fiskesauce", "Worcestershiresauce", "Teriyakisauce", "Syltede agurker", "Relish", "Tahini", "Jensens sauce", "Hvidløgsdressing"
+    ]
+  },
+  {
+    "category": "Sødemidler",
+    "items": [
+      "Sukker", "Hvidt sukker", "Brunt sukker", "Honning", "Ahornsirup", "Agavesirup", "Melas", "Stevia", "Brun farin", "Kokossukker", "Majssirup", "Daddelsirup", "Vaniljesukker", "Kondenseret mælk"
+    ]
+  },
+  {
+    "category": "Unknown/Other",
+    "items": ["Keyword1", "Keyword2", "Keyword3"]
+  }
+]

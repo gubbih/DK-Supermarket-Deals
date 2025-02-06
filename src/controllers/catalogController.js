@@ -21,7 +21,6 @@ class CatalogController {
         
             const flattenedProducts = allProducts.flat();
             await this.writeToFile('offers.json', JSON.stringify(flattenedProducts));
-            res.json({ products: flattenedProducts });
         } catch (error) {
             console.error('Controller: Error fetching catalog IDs:', error.message);
             if (res) res.status(500).json({ error: error.message });

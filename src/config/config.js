@@ -12,10 +12,6 @@ const parseBusinessIds = (businessIdsString) => {
     });
 };
 
-console.log("API_KEY:", process.env.API_KEY);
-console.log("TRACK_ID:", process.env.TRACK_ID);
-console.log("BUSINESS_IDS:", process.env.BUSINESS_IDS);
-
 module.exports = {
     apiKey: process.env.API_KEY,
     trackId: process.env.TRACK_ID,
