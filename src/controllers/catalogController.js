@@ -15,7 +15,6 @@ class CatalogController {
     async getCatalogIds(req, res) {
         try {
             const catalogIds = await this.catalogService.fetchCatalogIds();
-            console.log("Catalog IDs:", catalogIds);
         
             const allProductsPromises = catalogIds.map(catalogId => this.catalogService.fetchHotspots(catalogId));
             const allProducts = await Promise.all(allProductsPromises);
