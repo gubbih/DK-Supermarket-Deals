@@ -1,9 +1,9 @@
-const CatalogService = require('../services/catalogService');
-const fs = require('fs').promises;
-const path = require('path');
-const { getDatabase, ref, set } = require('firebase/database');
-const { initializeApp } = require('firebase/app');
-const firebaseConfig = require('../config/firebaseConfig');
+const CatalogService = require("../services/catalogService");
+const fs = require("fs").promises;
+const path = require("path");
+const { getDatabase, ref, set, remove } = require("firebase/database");
+const { initializeApp } = require("firebase/app");
+const firebaseConfig = require("../config/firebaseConfig");
 
 class CatalogController {
     constructor() {
@@ -15,46 +15,62 @@ class CatalogController {
     async getCatalogIds(req, res) {
         try {
             const catalogIds = await this.catalogService.fetchCatalogIds();
-        
             const allProductsPromises = catalogIds.map(catalogId => this.catalogService.fetchHotspots(catalogId));
             const allProducts = await Promise.all(allProductsPromises);
-        
             const flattenedProducts = allProducts.flat();
-            await this.writeToFile('offers.json', JSON.stringify(flattenedProducts));
+
+            await this.writeToFile("offers.json", JSON.stringify(flattenedProducts));
         } catch (error) {
-            console.error('Controller: Error fetching catalog IDs:', error.message);
+            console.error("Controller: Error fetching catalog IDs:", error.message);
             if (res) res.status(500).json({ error: error.message });
         }
     }
 
     async writeToFile(fileName, data) {
         try {
-            const dirPath = path.join(__dirname, '..', 'data');
+            const dirPath = path.join(__dirname, "..", "data");
             const filePath = path.join(dirPath, fileName);
             
             await fs.mkdir(dirPath, { recursive: true });
             
             const formattedData = JSON.stringify(JSON.parse(data), null, 2);
             
-            await fs.writeFile(filePath, formattedData, 'utf8');
-            console.log('JSON file saved at:', filePath);
+            await fs.writeFile(filePath, formattedData, "utf8");
+
         } catch (error) {
-            console.error('ERROR Could not write to JSON:', error.message);
+            console.error("ERROR Could not write to JSON:", error.message);
             throw new Error(error.message);
         }
     }
 
     async uploadToFirebase(fileName, name) {
         try {
-            const filePath = path.join(__dirname, '..', 'data', fileName);
-            console.log('Reading file from:', filePath);
-            const fileData = await fs.readFile(filePath, 'utf8');
+            const filePath = path.join(__dirname, "..", "data", fileName);
+            console.log("Reading file from:", filePath);
+            const fileData = await fs.readFile(filePath, "utf8");
             const jsonData = JSON.parse(fileData);
             const dbRef = ref(this.db, name);
             await set(dbRef, jsonData);
-            console.log('Data uploaded to Firebase!');
         } catch (error) {
-            console.error('ERROR Could not upload to Firebase:', error.message);
+            console.error("ERROR Could not upload to Firebase:", error.message);
+            throw new Error(error.message);
+        }
+    }
+    async arrayToFirebase(data, name) {
+        try {
+            const dbRef = ref(this.db, name);
+            await set(dbRef, data);
+        } catch (error) {
+            console.error("ERROR Could not upload to Firebase:", error.message);
+            throw new Error(error.message);
+        }
+    }
+    async removeDataFromFirebase(name) {
+        const dbRef = ref(this.db, name);
+        try {
+            await remove(dbRef);
+        } catch (error) {
+            console.error("ERROR Could not remove data from Firebase:", error.message);
             throw new Error(error.message);
         }
     }

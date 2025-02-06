@@ -1,8 +1,8 @@
-const fs = require('fs').promises;
+const fs = require("fs").promises;
 
 async function fetchJson(filePath) {
     try {
-        const data = await fs.readFile(filePath, 'utf8');
+        const data = await fs.readFile(filePath, "utf8");
         return JSON.parse(data);
     } catch (err) {
         console.error(`Error reading file from disk: ${err}`);
@@ -17,9 +17,10 @@ function categorizeOffers(offers, categories) {
         let productNames = offer.name.split(" eller ").map(name => name.trim());
 
         productNames.forEach(product => {
-            categories.forEach(category => {
-                if (category.items.some(item => product.toLowerCase().includes(item.toLowerCase()))) {
-                    matchedCategories.add(category.category);
+            categories.forEach(category => { 
+                if (category.items.some(item => item.toLowerCase().includes(product.toLowerCase()))) {
+                    matchedCategories.add(category.category, categories.items);
+                    //console.log("categories: ",categories)
                 }
             });
         });
