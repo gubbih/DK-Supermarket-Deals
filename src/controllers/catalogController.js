@@ -1,3 +1,10 @@
+const CatalogService = require('../services/catalogService');
+const fs = require('fs').promises;
+const path = require('path');
+const { getDatabase, ref, set } = require('firebase/database');
+const { initializeApp } = require('firebase/app');
+const firebaseConfig = require('../config/firebaseConfig');
+
 class CatalogController {
     constructor() {
         this.catalogService = new CatalogService();
