@@ -6,7 +6,7 @@ const parseBusinessIds = (businessIdsString) => {
         console.warn("Warning: BUSINESS_IDS is not defined");
         return [];
     }
-    return businessIdsString.split(',').map(item => {
+    return businessIdsString.split('_').map(item => {
         const [name, id] = item.split(':');
         return { name, id };
     });
