@@ -1,6 +1,10 @@
 require('dotenv').config();
 
 const parseBusinessIds = (businessIdsString) => {
+    if (!businessIdsString) {
+        console.warn("Warning: BUSINESS_IDS is not defined");
+        return [];
+    }
     return businessIdsString.split(',').map(item => {
         const [name, id] = item.split(':');
         return { name, id };
