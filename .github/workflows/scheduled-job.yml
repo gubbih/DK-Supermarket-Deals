@@ -2,8 +2,8 @@ name: Run JavaScript script
 
 on:
   schedule:
-    - cron: '0 2 * * 0,1,5'  # Runs at 02:00 UTC on Sunday, Monday, and Friday
-  workflow_dispatch:  # Allows manual triggering
+    - cron: '0 2 * * 0,1,5'
+  workflow_dispatch:
   
 jobs:
   run-script:
@@ -35,10 +35,10 @@ jobs:
 
       - name: Debug Environment Variables
         run: |
-          echo "API_KEY=${API_KEY}"
-          echo "TRACK_ID=${TRACK_ID}"
-          echo "BUSINESS_IDS=${BUSINESS_IDS}"
-          echo "FIREBASE_DATABASE_URL=${FIREBASE_DATABASE_URL}"
+          echo "API_KEY=${{ env.API_KEY }}"
+          echo "TRACK_ID=${{ env.TRACK_ID }}"
+          echo "BUSINESS_IDS=${{ env.BUSINESS_IDS }}"
+          echo "FIREBASE_DATABASE_URL=${{ env.FIREBASE_API_KEY }}"
 
       - name: Run script
         run: npm start
