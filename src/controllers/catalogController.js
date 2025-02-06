@@ -1,9 +1,9 @@
 const CatalogService = require('../services/catalogService');
-const fs = require('fs').promises; // Bruger fs.promises til async/await
+const fs = require('fs').promises;
 const path = require('path');
 const { getDatabase, ref, set } = require('firebase/database');
 const { initializeApp } = require('firebase/app');
-const firebaseConfig = require('../config/firebaseConfig'); // Ensure you have this config file
+const firebaseConfig = require('../config/firebaseConfig');
 
 class CatalogController {
     constructor() {
@@ -17,11 +17,9 @@ class CatalogController {
             const catalogIds = await this.catalogService.fetchCatalogIds();
             console.log("Catalog IDs:", catalogIds);
         
-            // Fetch hotspots for each catalog ID and wait for all promises to resolve
             const allProductsPromises = catalogIds.map(catalogId => this.catalogService.fetchHotspots(catalogId));
             const allProducts = await Promise.all(allProductsPromises);
         
-            // Flatten the array of arrays
             const flattenedProducts = allProducts.flat();
             this.writeToFile('offers.json', JSON.stringify(flattenedProducts));
             res.json({ products: flattenedProducts });
@@ -30,30 +28,28 @@ class CatalogController {
             res.status(500).json({ error: error.message });
         }
     }
-    
 
     async writeToFile(fileName, data) {
         try {
             const dirPath = path.join(__dirname, '..', 'data');
             const filePath = path.join(dirPath, fileName);
             
-            // Ensure the directory exists
             await fs.mkdir(dirPath, { recursive: true });
             
-            // Format JSON data with indentation
             const formattedData = JSON.stringify(JSON.parse(data), null, 2);
             
             await fs.writeFile(filePath, formattedData, 'utf8');
-            console.log('JSON-fil saved! at:', filePath);
+            console.log('JSON file saved at:', filePath);
         } catch (error) {
-            console.error('ERROR Could not write to json:', error.message);
-            throw new Error(error.message); // Kaster fejlen videre, hvis det skal håndteres eksternt
+            console.error('ERROR Could not write to JSON:', error.message);
+            throw new Error(error.message);
         }
     }
 
     async uploadToFirebase(fileName, name) {
         try {
             const filePath = path.join(__dirname, '..', 'data', fileName);
+            console.log('Reading file from:', filePath);
             const fileData = await fs.readFile(filePath, 'utf8');
             const jsonData = JSON.parse(fileData);
             const dbRef = ref(this.db, name);

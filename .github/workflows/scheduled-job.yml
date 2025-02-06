@@ -49,3 +49,6 @@ jobs:
 
       - name: Run script
         run: npm start
+
+      - name: Debug - List files in data directory
+        run: ls -alh src/data
