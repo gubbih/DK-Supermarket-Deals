@@ -39,4 +39,4 @@ Thumbs.db
 *.css
 
 #Data
-data/
+data/offers.json
