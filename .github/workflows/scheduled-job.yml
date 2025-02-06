@@ -24,7 +24,7 @@ jobs:
         run: |
           echo "API_KEY=${{ secrets.API_KEY }}" >> $GITHUB_ENV
           echo "TRACK_ID=${{ secrets.TRACK_ID }}" >> $GITHUB_ENV
-          echo "BUSINESS_IDS=${{ secrets.BUSINESS_IDS }}" >> $GITHUB_ENV
+          echo "BUSINESS_IDS=$(echo "${{ secrets.BUSINESS_IDS }}" | sed 's/,/;/g')" >> $GITHUB_ENV
           echo "FIREBASE_API_KEY=${{ secrets.FIREBASE_API_KEY }}" >> $GITHUB_ENV
           echo "FIREBASE_AUTH_DOMAIN=${{ secrets.FIREBASE_AUTH_DOMAIN }}" >> $GITHUB_ENV
           echo "FIREBASE_DATABASE_URL=${{ secrets.FIREBASE_DATABASE_URL }}" >> $GITHUB_ENV
