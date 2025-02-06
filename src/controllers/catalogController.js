@@ -65,7 +65,6 @@ class CatalogController {
         }
     }
     async arrayToFirebase(data, name) {
-        console.log(data);
         try {
             if (!Array.isArray(data) || data.length === 0) {
                 throw new Error(`Data must be a non-empty array.`);
@@ -86,8 +85,6 @@ class CatalogController {
         }
     }
     async removeDataFromFirebase(name) {
-        console.log(`Removing data from Firebase:`, name);
-        console.log(firebaseConfig);
         const dbRef = ref(this.db, name);
         try {
             await remove(dbRef);
