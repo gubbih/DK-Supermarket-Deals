@@ -9,12 +9,13 @@ This project is designed to fetch and process catalogs from Danish supermarkets 
    - [ ] Remove console.log
    - [x] Find a way to get coop 365
    - [x] Double check if the wiegt is corret
-   - [No need] Implement user authentication
+   - [ ] firebase auth for secure connection as admin
    - [ ] Add unit tests for services
    - [ ] Improve error handling in controllers
    - [ ] Optimize database queries
    - [ ] Add pagination to API responses
    - [ ] re-write readme
+   - [ ] add function to remove old catalogs after the new one has been added | Delete everything run it again
    
    ```
 
