@@ -1,3 +1,4 @@
+const { get } = require('firebase/database');
 const CatalogController = require('./controllers/catalogController');
 
 const catalogController = new CatalogController();
@@ -21,17 +22,9 @@ async function main() {
     console.log("TRACK_ID:", trackId);
     console.log("BUSINESS_IDS:", businessIds);
     console.log("FIREBASE_API_KEY:", firebaseConfig.apiKey);
-    
+
     try {
-        // Check if a specific condition is met before uploading to Firebase
-        const shouldUpload = true; // Replace this with your condition
-        if (shouldUpload) {
-            await catalogController.uploadToFirebase('offers.json', 'offers');
-            console.log("Uploaded offers.json to Firebase");
-            
-            await catalogController.uploadToFirebase('Foodcompents.json', "foodcompents");
-            console.log("Uploaded Foodcompents.json to Firebase");
-        }
+        getCatalogIds();
     } catch (error) {
         console.error("Error uploading to Firebase:", error);
         process.exit(1); // Exit with a failure code

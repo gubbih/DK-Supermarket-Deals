@@ -47,8 +47,14 @@ jobs:
           echo "BUSINESS_IDS=${{ env.BUSINESS_IDS }}"
           echo "FIREBASE_DATABASE_URL=${{ env.FIREBASE_DATABASE_URL }}"
 
-      - name: Run script
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run script to generate offers.json
         run: npm start
 
       - name: Debug - List files in data directory
         run: ls -alh src/data
+
+      - name: Upload to Firebase
+        run: node -e "require('./src/controllers/catalogController').uploadToFirebase('offers.json', 'firebase-path')"
