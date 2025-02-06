@@ -6,7 +6,7 @@ const CatalogController = require(`./controllers/catalogController`);
     console.log(`start`)
     const catalogController = new CatalogController();
     //let written = false; // Change const to let
-    //await catalogController.removeDataFromFirebase(`offers/`); // Add this line to remove data from Firebase
+    await catalogController.removeDataFromFirebase(`offers/`); // Add this line to remove data from Firebase
     //await catalogController.uploadToFirebase(`foodcomponent.json`, `foodComponents`);
 
     try {
