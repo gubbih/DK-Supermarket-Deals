@@ -1,8 +1,8 @@
-const fs = require("fs").promises;
+const fs = require(`fs`).promises;
 
 async function fetchJson(filePath) {
     try {
-        const data = await fs.readFile(filePath, "utf8");
+        const data = await fs.readFile(filePath, `utf8`);
         return JSON.parse(data);
     } catch (err) {
         console.error(`Error reading file from disk: ${err}`);
@@ -13,21 +13,21 @@ function categorizeOffers(offers, categories) {
     return offers.map(offer => {
         let matchedCategories = new Set();
 
-        // Handle multiple products in one offer (split by " eller ")
-        let productNames = offer.name.split(" eller ").map(name => name.trim());
+        // Handle multiple products in one offer (split by ` eller `)
+        let productNames = offer.name.split(` eller `).map(name => name.trim());
 
         productNames.forEach(product => {
             categories.forEach(category => { 
                 if (category.items.some(item => item.toLowerCase().includes(product.toLowerCase()))) {
                     matchedCategories.add(category.category, categories.items);
-                    //console.log("categories: ",categories)
+                    //console.log(`categories: `,categories)
                 }
             });
         });
 
-        // If no category matches, add to "Unknown/Other"
+        // If no category matches, add to `Unknown/Other`
         if (matchedCategories.size === 0) {
-            matchedCategories.add("Unknown/Other");
+            matchedCategories.add(`Unknown/Other`);
         }
 
         return {
