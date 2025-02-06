@@ -15,6 +15,7 @@ This project is designed to fetch and process catalogs from Danish supermarkets 
    - [ ] Optimize database queries
    - [ ] Add pagination to API responses
    - [ ] re-write readme
+   - [ ] add function to remove old catalogs after the new one has been added | Delete everything run it again
    
    ```
 
