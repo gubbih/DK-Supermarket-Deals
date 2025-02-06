@@ -25,17 +25,15 @@ jobs:
           echo "API_KEY=${{ secrets.API_KEY }}" >> $GITHUB_ENV
           echo "TRACK_ID=${{ secrets.TRACK_ID }}" >> $GITHUB_ENV
           echo "BUSINESS_IDS=$(echo "${{ secrets.BUSINESS_IDS }}" | sed 's/,/;/g')" >> $GITHUB_ENV
-          echo "FIREBASE_API_KEY=${{ secrets.FIREBASE_API_KEY }}" >> $GITHUB_ENV
-          echo "FIREBASE_AUTH_DOMAIN=${{ secrets.FIREBASE_AUTH_DOMAIN }}" >> $GITHUB_ENV
           echo "FIREBASE_DATABASE_URL=${{ secrets.FIREBASE_DATABASE_URL }}" >> $GITHUB_ENV
-          echo "FIREBASE_PROJECT_ID=${{ secrets.FIREBASE_PROJECT_ID }}" >> $GITHUB_ENV
-          echo "FIREBASE_STORAGE_BUCKET=${{ secrets.FIREBASE_STORAGE_BUCKET }}" >> $GITHUB_ENV
-          echo "FIREBASE_MESSAGING_SENDER_ID=${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}" >> $GITHUB_ENV
-          echo "FIREBASE_APP_ID=${{ secrets.FIREBASE_APP_ID }}" >> $GITHUB_ENV
-          echo "FIREBASE_MEASUREMENT_ID=${{ secrets.FIREBASE_MEASUREMENT_ID }}" >> $GITHUB_ENV
 
-      - name: Verify Environment Variables
-        run: env
+      - name: Debug Environment Variables
+        run: |
+          echo "API_KEY=${API_KEY}"
+          echo "TRACK_ID=${TRACK_ID}"
+          echo "BUSINESS_IDS=${BUSINESS_IDS}"
+          echo "FIREBASE_DATABASE_URL=${FIREBASE_DATABASE_URL}"
+        shell: bash
 
       - name: Run script
         run: npm start
