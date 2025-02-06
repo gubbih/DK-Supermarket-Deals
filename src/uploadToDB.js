@@ -6,8 +6,9 @@ const CatalogController = require(`./controllers/catalogController`);
     console.log(`start`)
     const catalogController = new CatalogController();
     //let written = false; // Change const to let
-    //await catalogController.removeDataFromFirebase(`foodcomponent/`); // Add this line to remove data from Firebase
-    //await catalogController.uploadToFirebase(`foodcomponent.json`, `foodComponent`);
+    await catalogController.removeDataFromFirebase(`foodcomponent/`); // Add this line to remove data from Firebase
+    await catalogController.uploadToFirebase(`foodcomponent.json`, `foodComponents`);
+    /*
     try {
         const catalogIds = await catalogController.getCatalogIds();
         written = true;
@@ -39,6 +40,6 @@ const CatalogController = require(`./controllers/catalogController`);
         } catch (error) {
             console.error(`Error loading JSON files:`, error);
         }
-    }
+    }*/
     process.exit(0);
 })();
