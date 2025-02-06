@@ -2,7 +2,7 @@ name: Run JavaScript script
 
 on:
   schedule:
-    - cron: '0 2 * * 0,1,5'  # Runs at 02:00 UTC on Sunday, Monday and Friday
+    - cron: '0 2 * * 0,1,5'  # Runs at 02:00 UTC on Sunday, Monday, and Friday
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
@@ -18,7 +18,7 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Set up environment variables
         run: |
@@ -33,6 +33,9 @@ jobs:
           echo "FIREBASE_MESSAGING_SENDER_ID=${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}" >> $GITHUB_ENV
           echo "FIREBASE_APP_ID=${{ secrets.FIREBASE_APP_ID }}" >> $GITHUB_ENV
           echo "FIREBASE_MEASUREMENT_ID=${{ secrets.FIREBASE_MEASUREMENT_ID }}" >> $GITHUB_ENV
+
+      - name: Verify Environment Variables
+        run: env
 
       - name: Run script
         run: npm start
