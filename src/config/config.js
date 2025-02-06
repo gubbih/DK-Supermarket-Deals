@@ -1,6 +1,7 @@
 require('dotenv').config();
 
 const parseBusinessIds = (businessIdsString) => {
+    console.log("BUSINESS_IDS:", businessIdsString);
     if (!businessIdsString) {
         console.warn("Warning: BUSINESS_IDS is not defined");
         return [];
