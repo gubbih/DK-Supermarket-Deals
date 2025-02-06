@@ -5,8 +5,7 @@ const CatalogController = require(`./controllers/catalogController`);
 (async () => {
     console.log(`start`)
     const catalogController = new CatalogController();
-    //let written = false; // Change const to let
-    await catalogController.removeDataFromFirebase(`offers/`); // Add this line to remove data from Firebase
+    let written = false; // Change const to let
     //await catalogController.uploadToFirebase(`foodcomponent.json`, `foodComponents`);
 
     try {
@@ -29,6 +28,7 @@ const CatalogController = require(`./controllers/catalogController`);
                     offer => !offer.categories.includes(`Unknown/Other`)
                 );
                 try {
+                    await catalogController.removeDataFromFirebase(`offers/`);
                     await catalogController.arrayToFirebase(filteredOffers, `offers`);
                     
                 } catch (error) {
