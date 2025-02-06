@@ -1,10 +1,3 @@
-const CatalogService = require('../services/catalogService');
-const fs = require('fs').promises;
-const path = require('path');
-const { getDatabase, ref, set } = require('firebase/database');
-const { initializeApp } = require('firebase/app');
-const firebaseConfig = require('../config/firebaseConfig');
-
 class CatalogController {
     constructor() {
         this.catalogService = new CatalogService();
@@ -25,7 +18,7 @@ class CatalogController {
             res.json({ products: flattenedProducts });
         } catch (error) {
             console.error('Controller: Error fetching catalog IDs:', error.message);
-            res.status(500).json({ error: error.message });
+            if (res) res.status(500).json({ error: error.message });
         }
     }
 
