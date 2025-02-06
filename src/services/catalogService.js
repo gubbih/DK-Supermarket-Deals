@@ -33,8 +33,6 @@ class CatalogService {
                 allCatalogIds.push(...catalogs);
             } catch (error) {
                 console.error(`Error fetching catalogs for business ID: ${business.id}:`, error.message);
-                // Optionally, you can decide whether to continue or stop on error
-                // throw error; // Uncomment to stop on first error
             }
         }
 

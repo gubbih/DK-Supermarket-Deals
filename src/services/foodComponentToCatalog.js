@@ -13,14 +13,12 @@ function categorizeOffers(offers, categories) {
     return offers.map(offer => {
         let matchedCategories = new Set();
 
-        // Handle multiple products in one offer (split by ` eller `)
         let productNames = offer.name.split(` eller `).map(name => name.trim());
 
         productNames.forEach(product => {
             categories.forEach(category => { 
                 if (category.items.some(item => item.toLowerCase().includes(product.toLowerCase()))) {
                     matchedCategories.add(category.category, categories.items);
-                    //console.log(`categories: `,categories)
                 }
             });
         });

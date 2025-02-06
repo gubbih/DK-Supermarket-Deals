@@ -51,16 +51,15 @@ class CatalogController {
             const fileData = await fs.readFile(filePath, `utf8`);
             const jsonData = JSON.parse(fileData);
 
-            const dbRef = ref(this.db, name); // Reference to the database path
+            const dbRef = ref(this.db, name);
             const uploadPromises = jsonData.map(async (item) => {
             const newRef = push(dbRef); // Generate a unique ID for each item
             await set(newRef, { ...item, id: newRef.key }); // Store data with unique ID
-            return newRef.key; // Return the generated key
             });
             const uploadedKeys = await Promise.all(uploadPromises);
-            console.log(`✅ All items uploaded successfully:`, uploadedKeys);
+            console.log(`All items uploaded successfully:`, uploadedKeys);
         } catch (error) {
-            console.error(`❌ ERROR: Could not upload to Firebase:`, error.message);
+            console.error(`ERROR: Could not upload to Firebase:`, error.message);
             throw new Error(error.message);
         }
     }
@@ -70,17 +69,16 @@ class CatalogController {
                 throw new Error(`Data must be a non-empty array.`);
             }
     
-            const dbRef = ref(this.db, name); // Reference to the database path
+            const dbRef = ref(this.db, name);
             const uploadPromises = data.map(async (item) => {
                 const newRef = push(dbRef); // Generate a unique ID for each item
-                await set(newRef, { ...item, id: newRef.key }); // Store data with unique ID
-                return newRef.key; // Return the generated key
+                await set(newRef, { ...item, id: newRef.key });
             });
     
             const uploadedKeys = await Promise.all(uploadPromises);
-            console.log(`✅ All items uploaded successfully:`, uploadedKeys);
+            console.log(`All items uploaded successfully:`, uploadedKeys);
         } catch (error) {
-            console.error(`❌ ERROR: Could not upload to Firebase:`, error.message);
+            console.error(`ERROR: Could not upload to Firebase:`, error.message);
             throw new Error(error.message);
         }
     }
