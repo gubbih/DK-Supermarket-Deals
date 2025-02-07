@@ -12,14 +12,18 @@ async function fetchJson(filePath) {
 function categorizeOffers(offers, categories) {
     return offers.map(offer => {
         let matchedCategories = new Set();
+        let matchedItems = new Set();
 
         let productNames = offer.name.split(` eller `).map(name => name.trim());
 
         productNames.forEach(product => {
-            categories.forEach(category => { 
-                if (category.items.some(item => item.toLowerCase().includes(product.toLowerCase()))) {
-                    matchedCategories.add(category.category, categories.items);
-                }
+            categories.forEach(category => {
+                category.items.forEach(item => {
+                    if (product.toLowerCase().includes(item.toLowerCase())) {
+                        matchedCategories.add(category.category);
+                        matchedItems.add(item);
+                    }
+                });
             });
         });
 
@@ -30,7 +34,8 @@ function categorizeOffers(offers, categories) {
 
         return {
             ...offer,
-            categories: Array.from(matchedCategories)
+            categories: Array.from(matchedCategories),
+            matchedItems: Array.from(matchedItems) // New field for matched items
         };
     });
 }
