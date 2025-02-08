@@ -62,6 +62,7 @@ class CatalogService {
                 store: catalog.name ?? `Ukendt butik`,
                 run_from: item.offer?.run_from ?? `Ukendt startdato`,
                 run_till: item.offer?.run_till ?? `Ukendt slutdato`,
+                catelog_id: catalog.id
             }));
 
         } catch (error) {

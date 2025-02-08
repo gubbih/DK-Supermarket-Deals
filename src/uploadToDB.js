@@ -7,7 +7,7 @@ const CatalogController = require(`./controllers/catalogController`);
     const catalogController = new CatalogController();
     let written = false;
     //await catalogController.uploadToFirebase(`foodcomponent.json`, `foodComponents`);
-
+    
     try {
         const catalogIds = await catalogController.getCatalogIds();
         written = true;
