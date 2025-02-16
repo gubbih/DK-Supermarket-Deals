@@ -1,19 +1,28 @@
 [
   {
-    "category": "Proteiner",
-    "items": [
-      "Kyllingebryst", "Kyllingelår", "Kyllingevinger", "Hel kylling", "Kyllingefilet", "Kyllingeinderfilet", "Hakket kyllingekød",
-      "Hakket oksekød", "Oksemørbrad", "Oksebøf", "Ribeye steak", "Svinekotelet", "Hakket svinekød", "Bacon", 
-      "Flæskesteg", "Svinemørbrad", "Fiskefilet", "Laks", "Torsk", "Tun", "Rejer", "Blæksprutte", "Æg", "Tofu", 
-      "Tempeh", "Linser", "Kikærter", "Bønner", "Nødder", "Seitan", "Kalkunbryst", "Kalkunlår", "Andebryst", "Lammebøf", 
-      "Kalveculotte", "Spegepølse", "Pålægssalat", "Fiskefrikadeller", "Serranoskinke", "Parmaskinke", "Chorizo", "Salami", 
-      "Mortadella", "Kanin", "Vildsvin", "Andelår", "Kammuslinger", "Krokodillekød", "Strudsekød"
-    ]
+      "category": "Proteiner",
+      "items": [
+        "Kyllingebryst", "Kyllingelår", "Kyllingevinger", "Hel kylling", "Kyllingefilet", "Kyllingeinderfilet", "Hakket kyllingekød",
+        "Hakket oksekød", "Oksemørbrad", "Oksebøf", "Ribeye steak", "Entrecote", "T-bone steak", "Osso buco",
+        "Svinekotelet", "Hakket svinekød", "Bacon", "Flæskesteg", "Svinemørbrad", "Skinke", "Hakket lammekød",
+        "Lammebøf", "Lammekotelet", "Kalveculotte", "Kalvefilet", "Kalkunbryst", "Kalkunlår", "Andebryst", "Andelår",
+        "Kanin", "Vildsvin", "Krokodillekød", "Strudsekød", "Fasan", "Vagtel", "Due", "Hare", "Rådyr",
+        "Fiskefilet", "Laks", "Torsk", "Tun", "Rejer", "Blæksprutte", "Kammuslinger", "Muslinger", "Østers", 
+        "Krabbe", "Hummer", "Makrel", "Sild", "Kulmule", "Hellefisk", "Ål", "Brosme", "Sandart",
+        "Æg", "Vagtelæg", "Andeæg", "Bagt æg", "Pocheret æg", "Spejlæg", "Røræg", "Hårdkogt æg", "Blødkogt æg",
+        "Tofu", "Silketofu", "Fast tofu", "Røget tofu", "Tempeh", "Seitan", "Jackfruit",
+        "Linser", "Røde linser", "Grønne linser", "Brune linser", "Belugalinser", "Kikærter", "Bønner", 
+        "Sorte bønner", "Hvide bønner", "Kidneybønner", "Edamamebønner", "Mungbønner",
+        "Nødder", "Mandler", "Valnødder", "Hasselnødder", "Paranødder", "Cashewnødder", "Pekanødder", 
+        "Macadamianødder", "Pistacienødder", "Pinjekerner",
+        "Pålæg", "Spegepølse", "Pålægssalat", "Fiskefrikadeller", "Serranoskinke", "Parmaskinke", 
+        "Chorizo", "Salami", "Mortadella", "Leverpostej", "Rullepølse", "Roastbeef"
+      ]
   },
   {
     "category": "Kulhydrater",
     "items": [
-      "Hvide ris", "Brune ris", "Basmatiris", "Jasminris",
+      "Hvide ris", "Brune ris", "Basmatiris", "Jasminris", "Vilde ris",
       "Pasta", "Spaghetti", "Fettuccine", "Linguine", "Penne", "Rigatoni",
       "Fusilli", "Farfalle", "Macaroni", "Orecchiette", "Lasagneplader",
       "Ravioli", "Tortellini", "Cannelloni", "Gnocchi",
@@ -21,70 +30,89 @@
       "Brød", "Rugbrød", "Franskbrød", "Kartofler", "Bagekartofler",
       "Søde kartofler", "Havregryn", "Dåsemajs", "Majsmel", "Quinoa",
       "Byg", "Couscous", "Polenta", "Nudler", "Burgerboller", "Pizzadej",
-      "Durumhvede", "Bulgur", "Maniok", "Sago", "Sorghum", "Tapioka", "Fyldt Pasta", "Fettuccin "
+      "Durumhvede", "Bulgur", "Maniok", "Sago", "Sorghum", "Tapioka", 
+      "Amarant", "Spelt", "Hirse", "Rug", "Müsli", "Cornflakes"
     ]
   },
   {
-    "category": "Bageri",
-    "items": [
-      "Hvedemel", "Rugmel", "Fuldkornsmel", "Mandelmel", "Kokosmel", "Majsmel", "Durummel", 
-      "Bagepulver", "Natron", "Gær", "Vaniljesukker", "Vaniljestang", "Chokoladechips", "Mørk chokolade", 
-      "Hvid chokolade", "Mælkechokolade", "Marcipan", "Nougat", "Sukker", "Flormelis", "Sirup", "Honning", 
-      "Ahornsirup", "Glukosesirup", "Sødemidler", "Brunt sukker", "Rørsukker", "Muffins", "Brownie", "Kage", 
-      "Lagkage", "Donut", "Bagværk", "Croissant", "Wienerbrød", "Kanelsnegl", "Løvbjerg", "Luftige boller", 
-      "Kernebrød", "Ciabatta", "Flutes", "Surdejsbrød", "Hvedebrød", "Kiks", "Knækbrød", "Småkager"
-    ]
+      "category": "Bageri",
+      "items": [
+        "Hvedemel", "Rugmel", "Fuldkornsmel", "Mandelmel", "Kokosmel", "Majsmel", "Durummel", 
+        "Kartoffelmel", "Tapiokamel", "Havremel", "Quinoamel", "Boghvedemel", "Speltmel", 
+        "Grahamsmel", "Rismel", "Kastanjemel", "Amarantmel",
+        "Bagepulver", "Natron", "Gær", "Vaniljesukker", "Vaniljestang", "Chokoladechips", 
+        "Mørk chokolade", "Hvid chokolade", "Mælkechokolade", "Kakaopulver", "Nutella", 
+        "Marcipan", "Nougat", "Sukker", "Flormelis", "Sirup", "Honning", "Ahornsirup", 
+        "Glukosesirup", "Sødemidler", "Brunt sukker", "Rørsukker", "Kokossukker",
+        "Muffins", "Brownie", "Kage", "Lagkage", "Donut", "Bagværk", "Croissant", 
+        "Wienerbrød", "Kanelsnegl", "Løvbjerg", "Luftige boller", "Kernebrød", "Ciabatta", 
+        "Flutes", "Surdejsbrød", "Hvedebrød", "Kiks", "Knækbrød", "Småkager",
+        "Tærte", "Cheesecake", "Pandekager", "Vafler", "Eclairs", "Madeleinekager"
+      ]
   },
   {
-    "category": "Fedtstoffer & Olier",
-    "items": [
-      "Smør", "Saltet smør", "Usaltet smør", "Olivenolie", "Ekstra jomfru olivenolie", "Vegetabilsk olie", 
-      "Rapsolie", "Kokosolie", "Avocado", "Ost", "Fetaost", "Cheddarost", "Mozzarella", "Parmesan", "Frø", 
-      "Solsikkefrø", "Chiafrø", "Hørfrø", "Lard", "Ghee", "Nøddesmør", "Peanutbutter", "Mandelbutter", "Kokosmælk", 
-      "Madlavningsfløde", "Palmekerneolie", "Sesamolie", "Macadamiaolie", "Mælk", "Yoghurt", "Græsk yoghurt"
-    ]
+      "category": "Fedtstoffer & Olier",
+      "items": [
+        "Smør", "Saltet smør", "Usaltet smør", "Klarificeret smør", "Ghee", "Lard",
+        "Olivenolie", "Ekstra jomfru olivenolie", "Vegetabilsk olie", "Rapsolie", "Kokosolie", 
+        "Sesamolie", "Jordnøddeolie", "Solsikkeolie", "Vindruekerneolie", "Avocadoolie", 
+        "Valnøddeolie", "Macadamiaolie", "Hørfrøolie", "Palmekerneolie",
+        "Avocado", "Oliven", "Nødder", "Mandler", "Valnødder", "Hasselnødder", 
+        "Paranødder", "Cashewnødder", "Pekanødder", "Macadamianødder", "Pistacienødder", 
+        "Pinjekerner", "Nøddesmør", "Peanutbutter", "Mandelbutter", "Cashewsmør",
+        "Frø", "Solsikkefrø", "Chiafrø", "Hørfrø", "Sesamfrø", "Græskarkerner"
+      ]
   },
   {
-    "category": "Grøntsager",
-    "items": [
-      "Gulerod","Tomat","Cherrytomater","Løg","Rødløg","Forårsløg","Hvidløg","Broccoli","Blomkål","Agurk","Salat",
-      "Romainesalat","Spinat","Kål","Hvidkål","Rødkål","Savoykål","Peberfrugt","Champignon","Portobello","Dåsetomater",
-      "Syltede rødbeder","Syltede agurker","Aubergine","Squash","Spinat fettuccine","Asparges","Radiser","Majroer","Grønkål",
-      "Pak choy","Fennikel","Jordskokker","Okra","Artiskok","Asie","Avocado","Batat","Bladbede","Bøgehat","Bønner",
-      "Bønnespirer","Citrongræs","Drueagurker","Enoki","Frisésalat","Græskar","Hvide asparges","Julesalat","Kantarel","Kapers",
-      "Kartofler","Kejserhat","Kinakål","Kinaradise","Knudekål","Kålrabi","Løg","Majroe","Majs","Morkel","Okra","Pastinak",
-      "Peberfrugt","Peberrod","Perleløg","Persillerod","Porre","Portobello","Rabarber","Radicchio","Radise","Romainesalat",
-      "Romanesco","Rosenkål","Rucola","Rødbede","Rødkål","Rødløg","Salat","Salatløg","Selleri","Shiitake","Skalotteløg",
-      "Skorzonerrod","Spidskål","Spinat","Squash","Tang","Tomat","Trøffel","Zittauerløg","Ærter","Østershatte"
-    ]
+      "category": "Grøntsager",
+      "items": [
+        "Gulerod", "Tomat", "Cherrytomater", "Løg", "Forårsløg", "Hvidløg", "Broccoli", "Blomkål", "Romanesco",
+        "Agurk", "Salat", "Romainesalat", "Icebergsalat", "Spinat", "Kål", "Hvidkål", "Rødkål", "Savoykål", 
+        "Spidskål", "Grønkål", "Pak choy", "Napa kål", "Kinakål", "Bladbede", "Bede", "Rødbede", "Gule beder",
+        "Peberfrugt", "Grøn peber", "Rød peber", "Gul peber", "Orange peber", "Chili", "Jalapeño", "Habanero",
+        "Poblano", "Serrano", "Peberrod", "Frisk ingefær", "Frisk gurkemeje", "Wasabi rod",
+        "Champignon", "Portobello", "Shiitake", "Østershatte", "Kantarel", "Karl Johan", "Enoki", "Morkel", "Trøffel",
+        "Bøgehat", "Kejserhat", "Knippe-svampe",
+        "Asparges", "Grønne asparges", "Hvide asparges", "Radiser", "Majroer", "Kålrabi", "Knudekål", "Pastinak",
+        "Jordskokker", "Selleri", "Knoldselleri", "Bladselleri", "Persillerod",
+        "Kartofler", "Bagekartofler", "Søde kartofler", "Batater", "Yams", "Cassava", "Taro", "Lotusrod",
+        "Aubergine", "Squash", "Zucchini", "Græskar", "Hokkaido græskar", "Butternut squash", "Spaghettisquash",
+        "Bønner", "Grønne bønner", "Sukkerærter", "Snespire", "Edamame", "Bønnespirer", "Mungbønnespirer",
+        "Dåsetomater", "Tomatpure", "Syltede rødbeder", "Syltede agurker", "Artiskok", "Asie", 
+        "Fennikel", "Okra", "Bambusskud", "Vandkastanjer", "Citrongræs", "Kapers", 
+        "Tang", "Nori", "Wakame", "Kombu", "Dulse",
+        "Avocado", "Oliven", "Majs", "Dåsemajs", "Grillet peberfrugt", "Syltede løg",
+        "Rabarber", "Sølvbede", "Brøndkarse", "Mizuna", "Rucola", "Radicchio", "Endivie", "Julesalat",
+        "Vandmelonradise", "Bitter melon", "Sød kartoffelblad", "Aloe vera"
+      ]
   },
   {
-    "category": "Frugter",
-    "items": [
-      "Æble","Grønne æbler","Bananer","Røde æbler","Banan","Appelsin","Blodappelsin","Vindrue","Jordbær","Vandmelon",
-      "Cantaloupe","Pære","Ananas","Mango","Blåbær","Hindbær","Brombær","Kirsebær","Kiwi","Papaya","Granatæble","Blommer",
-      "Figner","Guava","Litchi","Passionsfrugt","Rambutan","Stjernefrugt","Abrikos","Avocado","Blomme","Citron","Drue","Fersken",
-      "Grapefrugt","Kernefrugt","Kokosnød","Mandarin","Nød","Oliven","Solbær","Stenfrugt","Stevnsbær","Surkirsebær"
-    ]
-  },
-  {
-    "category": "Tilsætningsstoffer & Krydderier",
-    "items": [
-      "Salt", "Peber", "Sort peber", "Hvid peber", "Røget peber", "Himalayasalt",
-      "Trøffelsalt", "Sort salt", "Paprika", "Sød paprika", "Røget paprika", 
-      "Chili", "Chiliflager", "Spidskommen", "Karry", "Madras karry", "Garam masala",
-      "Kanel", "Muskatnød", "Stødt muskat", "Hele muskatnødder", "Ingefær", "Stødt ingefær", 
-      "Hvidløgspulver", "Løgpulver", "Koriander", "Hele korianderfrø", "Stødt koriander",
-      "Timian", "Rosmarin", "Oregano", "Basilikum", "Dild", "Purløg", "Estragon",
-      "Fennikelfrø", "Stjerneanis", "Allehånde", "Kardemomme", "Hele kardemommekapsler",
-      "Sennepsfrø", "Sort sennepsfrø", "Gule sennepsfrø", "Birkes", "Laurbærblade",
-      "Nelliker", "Stødt nelliker", "Sumak", "Szechuan peber", "Saffran",
-      "Vaniljesukker", "Vaniljestang", "Herbes de Provence", "Italienske krydderier",
-      "Chili con carne mix", "Taco krydderi", "Five-spice", "Cajun krydderi",
-      "Bouillon", "Oksebouillon", "Kyllingebouillon", "Grøntsagsbouillon", "Fiskebouillon",
-      "Soyasauce", "Tamari", "Shoyu", "Miso", "Ponzu", "Teriyakisauce", 
-      "Fiskesauce", "Oystersauce", "Hoisinsauce", "Gochujang", "Sambal Oelek",
-      "MSG", "Næringsgær", "Kombu", "Dried mushrooms", "Sort hvidløg"
-    ]
+      "category": "Tilsætningsstoffer & Krydderier",
+      "items": [
+        "Salt", "Havsalt", "Himalayasalt", "Sort salt", "Trøffelsalt", "Røgsalt",
+        "Peber", "Sort peber", "Hvid peber", "Rød peber", "Grøn peber", "Røget peber", "Szechuan peber",
+        "Paprika", "Sød paprika", "Røget paprika", "Stærk paprika",
+        "Chili pulver", "Chiliflager", "Chipotle pulver", "Cayennepeber", "Habanero pulver",
+        "Spidskommen", "Stødt spidskommen", "Karrypulver", "Madras karry", "Garam masala", "Tikka masala", "Curry paste", 
+        "Stødt ingefær", "Stødt gurkemeje", "Safran", "Sumak", "Za'atar",
+        "Kanelstænger", "Stødt kanel", "Muskatnød", "Stødt muskat", "Hele muskatnødder", 
+        "Nelliker", "Stødt nelliker", "Kardemommekapsler", "Stødt kardemomme",
+        "Korianderfrø", "Stødt koriander", "Dild", "Purløg", "Estragon", 
+        "Timian", "Rosmarin", "Oregano", "Basilikum", "Persille", "Salvie", "Merian", 
+        "Laurbærblade", "Stjerneanis", "Fennikelfrø", "Allehånde", "Bukkehornsfrø",
+        "Vaniljesukker", "Vaniljestang", "Tonka bønner", "Lakridspulver",
+        "Chili con carne mix", "Taco krydderi", "Five-spice", "Cajun krydderi", "Herbes de Provence", 
+        "Italienske krydderier", "Bouquet garni", "Ras el hanout", "Advieh", "Berbere", "Dukkah", 
+        "Furikake", "Gomasio", "Umeboshi",
+        "Bouillonterninger", "Oksebouillon", "Kyllingebouillon", "Grøntsagsbouillon", "Fiskebouillon",
+        "Soyasauce", "Tamari", "Shoyu", "Miso", "Ponzu", "Teriyakisauce", 
+        "Fiskesauce", "Oystersauce", "Hoisinsauce", "Gochujang", "Sambal Oelek", "Sriracha",
+        "Worcestershiresauce", "Maggi", "Liquid smoke", "Tabasco", "Harissa", "Ajvar",
+        "MSG", "Næringsgær", "Sort hvidløg", "Trøffelolie", "Trøffelpasta", "Yuzuskal", 
+        "Citronsaft", "Limesaft", "Appelsinskal", "Rosesirup", "Appelsinblomstvand", 
+        "Orangecuracao", "Angostura bitters", "Malteddike", "Risvineddike", "Balsamicoeddike",
+        "Shichimi togarashi", "Nanami togarashi", 
+        "Wasabipulver", "Matchapulver", "Blomsterpollen"
+      ]
   }
 ]
