@@ -57,11 +57,20 @@
         "Olivenolie", "Ekstra jomfru olivenolie", "Vegetabilsk olie", "Rapsolie", "Kokosolie", 
         "Sesamolie", "Jordnøddeolie", "Solsikkeolie", "Vindruekerneolie", "Avocadoolie", 
         "Valnøddeolie", "Macadamiaolie", "Hørfrøolie", "Palmekerneolie", "Flødeost",
-        "Avocado", "Oliven", "Nødder", "Mandler", "Valnødder", "Hasselnødder", 
+        "Nødder", "Mandler", "Valnødder", "Hasselnødder", 
         "Paranødder", "Cashewnødder", "Pekanødder", "Macadamianødder", "Pistacienødder", 
         "Pinjekerner", "Nøddesmør", "Peanutbutter", "Mandelbutter", "Cashewsmør", "Cremefraiche",
-        "Frø", "Solsikkefrø", "Chiafrø", "Hørfrø", "Sesamfrø", "Græskarkerner", "Mayonnaise", "Avocadoolie"
+        "Frø", "Solsikkefrø", "Chiafrø", "Hørfrø", "Sesamfrø", "Græskarkerner", "Mayonnaise"
       ]
+  },
+  {
+    "category": "Frugter",
+    "items": [
+      "Æble", "Grønne æbler","Røde æbler","Banan","Appelsin","Blodappelsin","Vindrue","Jordbær","Vandmelon","Cantaloupe",
+      "Pære","Ananas","Mango","Blåbær","Hindbær","Brombær","Kirsebær","Kiwi","Papaya","Granatæble","Blommer","Figner","Guava","Litchi",
+      "Passionsfrugt","Rambutan","Stjernefrugt","Abrikos","Avocado","Blomme","Citron","Drue","Fersken","Grapefrugt","Kernefrugt","Kokosnød",
+      "Mandarin","Oliven","Solbær","Stenfrugt","Stevnsbær","Surkirsebær"
+    ]
   },
   {
       "category": "Grøntsager",
@@ -81,9 +90,9 @@
         "Hakkede tomater","Flåede tomater", "Tomatpuré", "Syltede rødbeder", "Syltede agurker", "Artiskok", "Asie", 
         "Fennikel", "Okra", "Bambusskud", "Vandkastanjer", "Citrongræs", "Kapers", 
         "Tang", "Nori", "Wakame", "Kombu", "Dulse", "Persille",
-        "Avocado", "Oliven", "Majs", "Dåsemajs", "Grillet peberfrugt", "Syltede løg",
+        "Oliven", "Majs", "Dåsemajs", "Grillet peberfrugt", "Syltede løg",
         "Rabarber", "Sølvbede", "Brøndkarse", "Mizuna", "Rucola", "Radicchio", "Endivie", "Julesalat",
-        "Vandmelonradise", "Bitter melon", "Sød kartoffelblad", "Aloe vera","Lime","Citron","Æble", "Cornichoner"
+        "Vandmelonradise", "Bitter melon", "Sød kartoffelblad", "Aloe vera","Lime","Citron", "Cornichoner"
       ]
   },
   {
