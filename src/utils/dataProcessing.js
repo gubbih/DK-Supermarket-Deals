@@ -1,6 +1,9 @@
+const fs = require('fs');
+const readline = require('readline');
+
 /**
  * Efficient string matching with pre-processed lowercase items
- * @param {Array} data - Data array to process
+ * @param {Array} offers - Data array to process
  * @param {Array} categories - Categories with items to match
  * @returns {Array} - Processed data with matched categories
  */
@@ -34,7 +37,8 @@ function efficientCategorizeOffers(offers, categories) {
         const matchedItems = new Set();
         
         // Split product names
-        const productNames = offer.name.split(' eller ').map(name => name.trim().toLowerCase());
+        const productName = offer.name || '';
+        const productNames = productName.split(' eller ').map(name => name.trim().toLowerCase());
         
         // Find matches
         productNames.forEach(product => {
@@ -80,7 +84,7 @@ function efficientCategorizeOffers(offers, categories) {
     // Process in batches
     for (let i = 0; i < items.length; i += batchSize) {
       const batch = items.slice(i, i + batchSize);
-      console.log(`Uploading batch ${i/batchSize + 1} of ${Math.ceil(items.length/batchSize)}`);
+      console.log(`Uploading batch ${Math.floor(i/batchSize) + 1} of ${Math.ceil(items.length/batchSize)}`);
       
       const batchResults = await firebaseService.pushBatch(path, batch);
       results.push(...batchResults);

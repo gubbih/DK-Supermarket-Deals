@@ -17,7 +17,7 @@ async function setupApp() {
     // Initialize services
     const authService = new AuthService(firebaseApp);
     const firebaseService = new FirebaseService(firebaseApp, authService);
-    const catalogService = new CatalogService(config.api);
+    const catalogService = new CatalogService();
     
     // Authenticate if admin credentials are provided
     if (config.auth.adminEmail && config.auth.adminPassword) {

@@ -1,0 +1,1384 @@
+[
+  {
+    "name": "Corny Müslibars",
+    "price": 20,
+    "valuta": "DKK",
+    "weight": 120,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Kulhydrater"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "müsli"
+      ]
+    },
+    "mainCategory": "Kulhydrater"
+  },
+  {
+    "name": "Toms slikposer & Go'e Stænger",
+    "price": 14,
+    "valuta": "DKK",
+    "weight": 100,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Ahlgrens Bilar",
+    "price": 18,
+    "valuta": "DKK",
+    "weight": 100,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "M&M's eller Maltesers",
+    "price": 25,
+    "valuta": "DKK",
+    "weight": 135,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Kiksemarked",
+    "price": 14,
+    "valuta": "DKK",
+    "weight": 125,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Bageri"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "kiks"
+      ]
+    },
+    "mainCategory": "Bageri"
+  },
+  {
+    "name": "Ritter Sport",
+    "price": 18,
+    "valuta": "DKK",
+    "weight": 100,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Ugly Duck",
+    "price": 18,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Craft Nation Beer",
+    "price": 9,
+    "valuta": "DKK",
+    "weight": 33,
+    "weight_unit": "cl",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Svaneke, Thisted, Thy eller Ørbæk",
+    "price": 18,
+    "valuta": "DKK",
+    "weight": 44,
+    "weight_unit": "cl",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Taffel nødder",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 110,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Proteiner",
+      "Fedtstoffer & Olier"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "nødder",
+        "nødder"
+      ]
+    },
+    "mainCategory": "Proteiner"
+  },
+  {
+    "name": "Paulaner, San Miguel eller Urquell",
+    "price": 13,
+    "valuta": "DKK",
+    "weight": 50,
+    "weight_unit": "cl",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Tyrrells chips",
+    "price": 15,
+    "valuta": "DKK",
+    "weight": 150,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Fedtstoffer & Olier"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "chips"
+      ]
+    },
+    "mainCategory": "Fedtstoffer & Olier"
+  },
+  {
+    "name": "Gevalia, Merrild eller Cafe Noir instant",
+    "price": 65,
+    "valuta": "DKK",
+    "weight": 185,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Nescafe specialiteter eller Fredsted Chai Latte",
+    "price": 22,
+    "valuta": "DKK",
+    "weight": 112,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "True Dates",
+    "price": 15,
+    "valuta": "DKK",
+    "weight": 100,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Frugter"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "dates"
+      ]
+    },
+    "mainCategory": "Frugter"
+  },
+  {
+    "name": "Galle & Jessen pålægschokolade",
+    "price": 50,
+    "valuta": "DKK",
+    "weight": 324,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "ål",
+        "æg",
+        "pålæg"
+      ]
+    },
+    "mainCategory": "Proteiner"
+  },
+  {
+    "name": "Heinz ketchup",
+    "price": 30,
+    "valuta": "DKK",
+    "weight": 1350,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Tilsætningsstoffer & Krydderier"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "ketchup"
+      ]
+    },
+    "mainCategory": "Tilsætningsstoffer & Krydderier"
+  },
+  {
+    "name": "Panda nudler",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 300,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Kulhydrater"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "nudler"
+      ]
+    },
+    "mainCategory": "Kulhydrater"
+  },
+  {
+    "name": "Hellmann’s mayonnaise eller Maille sennep",
+    "price": 22,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Fedtstoffer & Olier",
+      "Tilsætningsstoffer & Krydderier"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "mayonnaise",
+        "sennep"
+      ]
+    },
+    "mainCategory": "Fedtstoffer & Olier"
+  },
+  {
+    "name": "Tulip bacon i skiver eller i tern",
+    "price": 30,
+    "valuta": "DKK",
+    "weight": 100,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchDetails": {
+      "patterns": [
+        {
+          "pattern": "/(\\w+) i (\\w+)/i",
+          "mainProduct": "bacon",
+          "packaging": "skiver"
+        }
+      ],
+      "matchedItems": [
+        "bacon",
+        "bacon",
+        "bacon"
+      ]
+    },
+    "mainCategory": "Proteiner"
+  },
+  {
+    "name": "Spansk inspireret eller grøn peber paté",
+    "price": 10,
+    "valuta": "DKK",
+    "weight": 150,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Grøntsager",
+      "Tilsætningsstoffer & Krydderier"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "grøn peber",
+        "peber",
+        "grøn peber"
+      ]
+    },
+    "mainCategory": "Grøntsager"
+  },
+  {
+    "name": "Graasten pålægssalater",
+    "price": 20,
+    "valuta": "DKK",
+    "weight": 250,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Proteiner",
+      "Grøntsager"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "ål",
+        "æg",
+        "pålæg",
+        "pålægssalat",
+        "salat"
+      ]
+    },
+    "mainCategory": "Proteiner"
+  },
+  {
+    "name": "Kohberg rugbrød",
+    "price": 15,
+    "valuta": "DKK",
+    "weight": 500,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Kulhydrater"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "brød",
+        "rugbrød",
+        "rug"
+      ]
+    },
+    "mainCategory": "Kulhydrater"
+  },
+  {
+    "name": "Steff Houlberg toppings",
+    "price": 16,
+    "valuta": "DKK",
+    "weight": 100,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "toppings"
+      ]
+    },
+    "mainCategory": "Proteiner"
+  },
+  {
+    "name": "Spegepølser",
+    "price": 25,
+    "valuta": "DKK",
+    "weight": 300,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "exactMatch": "Proteiner",
+      "matchedItems": [
+        "spegepølse"
+      ]
+    },
+    "mainCategory": "Proteiner"
+  },
+  {
+    "name": "Coca-Cola 24-pak",
+    "price": 95,
+    "valuta": "DKK",
+    "weight": 33,
+    "weight_unit": "cl",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Nestea",
+    "price": 15,
+    "valuta": "DKK",
+    "weight": 1.5,
+    "weight_unit": "l",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Carlsberg eller Tuborg",
+    "price": 110,
+    "valuta": "DKK",
+    "weight": 33,
+    "weight_unit": "cl",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Mokai, Shaker eller Smirnoff",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 27.5,
+    "weight_unit": "cl",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Fun eller Scoop læskedrik",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 50,
+    "weight_unit": "cl",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Absolut Vodka, Ballantine's Whisky eller Brøndums Snaps",
+    "price": 99,
+    "valuta": "DKK",
+    "weight": 70,
+    "weight_unit": "cl",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Indpakning",
+    "price": 5,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Håndstøvsuger",
+    "price": 149,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "EVERLAST boxer 3-pak",
+    "price": 79,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "EVERLAST tennisstrømper 5-pak",
+    "price": 40,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "ADIDAS badesandaler",
+    "price": 139,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Dame eller herre bambus trainers 5-pak",
+    "price": 30,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Biotex flydende vaskemiddel",
+    "price": 25,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Palmolive deo roll-on, håndsæbe eller shower gel",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 50,
+    "weight_unit": "ml",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Zendium mundpleje",
+    "price": 27,
+    "valuta": "DKK",
+    "weight": 50,
+    "weight_unit": "ml",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Klorin",
+    "price": 20,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "365 Minirisk flydende vaskemiddel",
+    "price": 20,
+    "valuta": "DKK",
+    "weight": 1000,
+    "weight_unit": "ml",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Portugisisk bomuldsgarn",
+    "price": 18,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Fleecetæppe",
+    "price": 20,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Bademåtte",
+    "price": 30,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Dug",
+    "price": 45,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Hårpynt",
+    "price": 25,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Sengesæt",
+    "price": 99,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Leksands knækbrød",
+    "price": 10,
+    "valuta": "DKK",
+    "weight": 200,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-03-01T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Bageri",
+      "Kulhydrater"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "brød",
+        "knækbrød"
+      ]
+    },
+    "mainCategory": "Bageri"
+  },
+  {
+    "name": "Rød Merrild, Peter Larsen eller Cirkel Kaffe",
+    "price": 49,
+    "valuta": "DKK",
+    "weight": 400,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-03-01T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Kinder Pingui eller mælkesnitte",
+    "price": 18,
+    "valuta": "DKK",
+    "weight": 28,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-03-01T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Fedtstoffer & Olier"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "mælke"
+      ]
+    },
+    "mainCategory": "Fedtstoffer & Olier"
+  },
+  {
+    "name": "365 hakkede tomater",
+    "price": 5,
+    "valuta": "DKK",
+    "weight": 400,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-03-01T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Grøntsager"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "tomat",
+        "hakkede tomater"
+      ]
+    },
+    "mainCategory": "Grøntsager"
+  },
+  {
+    "name": "Brød",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 350,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-03-01T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Bageri",
+      "Kulhydrater"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "exactMatch": "Bageri",
+      "matchedItems": [
+        "brød"
+      ]
+    },
+    "mainCategory": "Bageri"
+  },
+  {
+    "name": "Pågen brød",
+    "price": 14,
+    "valuta": "DKK",
+    "weight": 400,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-03-01T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Kulhydrater"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "brød"
+      ]
+    },
+    "mainCategory": "Kulhydrater"
+  },
+  {
+    "name": "Legal Zin i boks",
+    "price": 99,
+    "valuta": "DKK",
+    "weight": 3,
+    "weight_unit": "l",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [
+        {
+          "pattern": "/(\\w+) i (\\w+)/i",
+          "mainProduct": "zin",
+          "packaging": "boks"
+        }
+      ],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Yoggi yoghurt",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "kg",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Fettuccine spinat",
+    "price": 5,
+    "valuta": "DKK",
+    "weight": 250,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Kulhydrater",
+      "Grøntsager"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "exactMatch": "Kulhydrater",
+      "matchedItems": [
+        "fettuccine",
+        "spinat"
+      ]
+    },
+    "mainCategory": "Kulhydrater"
+  },
+  {
+    "name": "Nice & Soft toiletpapir eller 365 Soft køkkenrulle",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Sumo Man eller Leone Zinfandel",
+    "price": 39,
+    "valuta": "DKK",
+    "weight": 75,
+    "weight_unit": "cl",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Tesauro R eller Falasco Garganega",
+    "price": 35,
+    "valuta": "DKK",
+    "weight": 75,
+    "weight_unit": "cl",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Bagatella Zinfandel eller Cava Recoda",
+    "price": 49,
+    "valuta": "DKK",
+    "weight": 75,
+    "weight_unit": "cl",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Chablis Marguerite",
+    "price": 99,
+    "valuta": "DKK",
+    "weight": 75,
+    "weight_unit": "cl",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Guigal Côtes du Rhône",
+    "price": 79,
+    "valuta": "DKK",
+    "weight": 75,
+    "weight_unit": "cl",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Haribo",
+    "price": 95,
+    "valuta": "DKK",
+    "weight": 800,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Unknown/Other"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "reason": "No category matches found",
+      "matchedItems": []
+    },
+    "mainCategory": "Unknown/Other"
+  },
+  {
+    "name": "Kellogg's morgenmad",
+    "price": 39,
+    "valuta": "DKK",
+    "weight": 580,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Bageri"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "morgenmad"
+      ]
+    },
+    "mainCategory": "Bageri"
+  },
+  {
+    "name": "Karen Volf Kæmpe køb Franske vafler eller flager",
+    "price": 25,
+    "valuta": "DKK",
+    "weight": 390,
+    "weight_unit": "g",
+    "store": "Coop",
+    "run_from": "2025-02-26T23:00:00+0000",
+    "run_till": "2025-03-05T22:59:59+0000",
+    "catelog_id": "BepEVzv3",
+    "categories": [
+      "Bageri"
+    ],
+    "matchDetails": {
+      "patterns": [],
+      "matchedItems": [
+        "vafler"
+      ]
+    },
+    "mainCategory": "Bageri"
+  }
+]
