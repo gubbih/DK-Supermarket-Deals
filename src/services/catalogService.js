@@ -1,14 +1,18 @@
 const axios = require(`axios`);
-const config = require(`../config/config`);
+const config = require(`../config`); // Updated to use the new consolidated config
 
 class CatalogService {
+    constructor() {
+        this.config = config.api; // Access the api section of the config
+    }
+
     async fetchCatalogIds() {
-        if (!config.businessIds || !Array.isArray(config.businessIds)) {
+        if (!this.config.businessIds || !Array.isArray(this.config.businessIds)) {
             throw new Error("Invalid or missing businessIds in config.");
         }
 
         try {
-            const catalogRequests = config.businessIds.map(async (business) => {
+            const catalogRequests = this.config.businessIds.map(async (business) => {
                 console.log(`Fetching catalogs for business ID: ${business.id}...`);
                 const response = await axios.get(`https://squid-api.tjek.com/v2/catalogs`, {
                     params: {
