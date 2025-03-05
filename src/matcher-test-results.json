@@ -1,0 +1,367 @@
+[
+  {
+    "name": "Corny Müslibars",
+    "store": "Coop",
+    "categories": [
+      "Kulhydrater"
+    ],
+    "matchAccuracy": 65,
+    "matchedItems": [
+      {
+        "name": "Müslibars",
+        "accuracy": 65,
+        "category": "Kulhydrater"
+      },
+      {
+        "name": "Müsli",
+        "accuracy": 30,
+        "category": "Kulhydrater"
+      }
+    ]
+  },
+  {
+    "name": "Toms slikposer & Go'e Stænger",
+    "store": "Coop",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchAccuracy": 65,
+    "matchedItems": [
+      {
+        "name": "Slikposer",
+        "accuracy": 65,
+        "category": "Ukendt"
+      }
+    ]
+  },
+  {
+    "name": "Ahlgrens Bilar",
+    "store": "Coop",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchAccuracy": 0,
+    "matchedItems": []
+  },
+  {
+    "name": "M&M's eller Maltesers",
+    "store": "Coop",
+    "categories": [
+      "Bageri"
+    ],
+    "matchAccuracy": 100,
+    "matchedItems": [
+      {
+        "name": "Maltesers",
+        "accuracy": 100,
+        "category": "Bageri"
+      }
+    ]
+  },
+  {
+    "name": "Kiksemarked",
+    "store": "Coop",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchAccuracy": 0,
+    "matchedItems": []
+  },
+  {
+    "name": "Ritter Sport",
+    "store": "Coop",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchAccuracy": 0,
+    "matchedItems": []
+  },
+  {
+    "name": "Ugly Duck",
+    "store": "Coop",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchAccuracy": 0,
+    "matchedItems": []
+  },
+  {
+    "name": "Craft Nation Beer",
+    "store": "Coop",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchAccuracy": 38,
+    "matchedItems": [
+      {
+        "name": "Craft øl",
+        "accuracy": 38,
+        "category": "Ukendt"
+      }
+    ]
+  },
+  {
+    "name": "Svaneke, Thisted, Thy eller Ørbæk",
+    "store": "Coop",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchAccuracy": 0,
+    "matchedItems": []
+  },
+  {
+    "name": "Taffel nødder",
+    "store": "Coop",
+    "categories": [
+      "Fedtstoffer & Olier",
+      "Bageri"
+    ],
+    "matchAccuracy": 65,
+    "matchedItems": [
+      {
+        "name": "Nødder",
+        "accuracy": 65,
+        "category": "Fedtstoffer & Olier"
+      },
+      {
+        "name": "Saltede nødder",
+        "accuracy": 50,
+        "category": "Fedtstoffer & Olier"
+      },
+      {
+        "name": "Ristede nødder",
+        "accuracy": 50,
+        "category": "Fedtstoffer & Olier"
+      },
+      {
+        "name": "Mørk chokolade med nødder",
+        "accuracy": 43,
+        "category": "Bageri"
+      }
+    ]
+  },
+  {
+    "name": "Paulaner, San Miguel eller Urquell",
+    "store": "Coop",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchAccuracy": 0,
+    "matchedItems": []
+  },
+  {
+    "name": "Tyrrells chips",
+    "store": "Coop",
+    "categories": [
+      "Grøntsager",
+      "Ukendt",
+      "Tilsætningsstoffer & Krydderier",
+      "Proteiner"
+    ],
+    "matchAccuracy": 65,
+    "matchedItems": [
+      {
+        "name": "Chili",
+        "accuracy": 65,
+        "category": "Grøntsager"
+      },
+      {
+        "name": "Chips",
+        "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Chili pulver",
+        "accuracy": 50,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 50,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Tortilla chips",
+        "accuracy": 50,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Sød Chili Sauce",
+        "accuracy": 45,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Chili con carne mix",
+        "accuracy": 43,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Sourcream & Onion chips",
+        "accuracy": 43,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Dåse kidneybønner i chili sauce",
+        "accuracy": 41,
+        "category": "Proteiner"
+      }
+    ]
+  },
+  {
+    "name": "Gevalia, Merrild eller Cafe Noir instant",
+    "store": "Coop",
+    "categories": [
+      "Tilsætningsstoffer & Krydderier"
+    ],
+    "matchAccuracy": 38,
+    "matchedItems": [
+      {
+        "name": "Instant kaffe",
+        "accuracy": 38,
+        "category": "Tilsætningsstoffer & Krydderier"
+      }
+    ]
+  },
+  {
+    "name": "Nescafe specialiteter eller Fredsted Chai Latte",
+    "store": "Coop",
+    "categories": [
+      "Tilsætningsstoffer & Krydderier"
+    ],
+    "matchAccuracy": 54,
+    "matchedItems": [
+      {
+        "name": "Chai Latte",
+        "accuracy": 54,
+        "category": "Tilsætningsstoffer & Krydderier"
+      }
+    ]
+  },
+  {
+    "name": "True Dates",
+    "store": "Coop",
+    "categories": [
+      "Frugter"
+    ],
+    "matchAccuracy": 70,
+    "matchedItems": [
+      {
+        "name": "True Dates",
+        "accuracy": 70,
+        "category": "Frugter"
+      }
+    ]
+  },
+  {
+    "name": "Galle & Jessen pålægschokolade",
+    "store": "Coop",
+    "categories": [
+      "Bageri",
+      "Proteiner"
+    ],
+    "matchAccuracy": 65,
+    "matchedItems": [
+      {
+        "name": "Pålægschokolade",
+        "accuracy": 65,
+        "category": "Bageri"
+      },
+      {
+        "name": "Pålæg",
+        "accuracy": 30,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Chokolade",
+        "accuracy": 30,
+        "category": "Bageri"
+      }
+    ]
+  },
+  {
+    "name": "Heinz ketchup",
+    "store": "Coop",
+    "categories": [
+      "Tilsætningsstoffer & Krydderier"
+    ],
+    "matchAccuracy": 65,
+    "matchedItems": [
+      {
+        "name": "Ketchup",
+        "accuracy": 65,
+        "category": "Tilsætningsstoffer & Krydderier"
+      }
+    ]
+  },
+  {
+    "name": "Panda nudler",
+    "store": "Coop",
+    "categories": [
+      "Kulhydrater"
+    ],
+    "matchAccuracy": 65,
+    "matchedItems": [
+      {
+        "name": "Nudler",
+        "accuracy": 65,
+        "category": "Kulhydrater"
+      }
+    ]
+  },
+  {
+    "name": "Hellmann’s mayonnaise eller Maille sennep",
+    "store": "Coop",
+    "categories": [
+      "Fedtstoffer & Olier",
+      "Tilsætningsstoffer & Krydderier"
+    ],
+    "matchAccuracy": 65,
+    "matchedItems": [
+      {
+        "name": "Mayonnaise",
+        "accuracy": 65,
+        "category": "Fedtstoffer & Olier"
+      },
+      {
+        "name": "Sennep",
+        "accuracy": 65,
+        "category": "Fedtstoffer & Olier"
+      },
+      {
+        "name": "Sennep",
+        "accuracy": 65,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Dijon sennep",
+        "accuracy": 50,
+        "category": "Tilsætningsstoffer & Krydderier"
+      }
+    ]
+  },
+  {
+    "name": "Tulip bacon i skiver eller i tern",
+    "store": "Coop",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchAccuracy": 65,
+    "matchedItems": [
+      {
+        "name": "Bacon i skiver",
+        "accuracy": 65,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Bacon",
+        "accuracy": 48,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Bacon i tern",
+        "accuracy": 31,
+        "category": "Proteiner"
+      }
+    ]
+  }
+]
