@@ -2,7 +2,13 @@ const path = require('path');
 const fs = require('fs').promises;
 const setupApp = require('./setup');
 const { handleError } = require('./utils/errorHandler');
-const { fetchJson, categorizeOffers } = require('./services/foodComponentToCatalog');
+const { fetchJson, categorizeOffers, filterPreparedMeals } = require('./services/foodComponentToCatalog');
+
+// Configuration for the food component matching
+const MATCHING_CONFIG = {
+  matchItemsLimit: 2,       // Maximum number of matched items to keep per offer
+  accuracyThreshold: 40     // Minimum accuracy score to keep (higher = stricter filtering)
+};
 
 async function writeToFile(fileName, data) {
   try {
@@ -60,47 +66,58 @@ async function main() {
         const allProducts = await Promise.all(allProductsPromises);
         const flattenedProducts = allProducts.flat();
         
-        // Write to file
+        // Write raw offers to file
         await writeToFile('offers.json', JSON.stringify(flattenedProducts));
         console.log(`Wrote ${flattenedProducts.length} offers to file`);
         
-        // Process and categorize offers
+        // Process and categorize offers with improved matching algorithm
         const foodComponentPath = path.join(__dirname, 'data', 'Foodcomponent.json');
         const categories = await fetchJson(foodComponentPath);
-        const categorizedOffers = categorizeOffers(flattenedProducts, categories);
         
-        // Generate statistics before filtering
-        console.log('\nCategorization statistics:');
+        console.log('Categorizing offers with enhanced matching algorithm...');
+        // Apply the match items limit when categorizing
+        const categorizedOffers = categorizeOffers(
+          flattenedProducts, 
+          categories, 
+          MATCHING_CONFIG.matchItemsLimit
+        );
+        
+        // Write all categorized results to file for reference
+        await writeToFile('all-categorized-offers.json', JSON.stringify(categorizedOffers));
+        console.log(`Wrote ${categorizedOffers.length} categorized offers to file for reference`);
+        
+        // Filter out prepared meals and items with low accuracy
+        console.log('Filtering out prepared meals and non-food items...');
+        const filteredOffers = filterPreparedMeals(
+          categorizedOffers, 
+          MATCHING_CONFIG.accuracyThreshold, 
+          MATCHING_CONFIG.matchItemsLimit
+        );
+        
+        // Write filtered results to file
+        await writeToFile('filtered-offers.json', JSON.stringify(filteredOffers));
+        console.log(`Filtered to ${filteredOffers.length} food component offers`);
+        
+        // Generate statistics before uploading
+        console.log('\nCategory distribution in filtered offers:');
         const categoryStats = {};
-        categorizedOffers.forEach(offer => {
-          if (offer.categories[0]) {
-            categoryStats[offer.categories[0]] = (categoryStats[offer.categories[0]] || 0) + 1;
-          }
+        filteredOffers.forEach(offer => {
+          const category = offer.categories[0]; // Now we only have one category per offer
+          categoryStats[category] = (categoryStats[category] || 0) + 1;
         });
 
         // Sort and display categories by count
         Object.entries(categoryStats)
           .sort((a, b) => b[1] - a[1])
           .forEach(([category, count]) => {
-            console.log(`- ${category}: ${count} offers (${Math.round(count/categorizedOffers.length*100)}%)`);
+            console.log(`- ${category}: ${count} offers (${Math.round(count/filteredOffers.length*100)}%)`);
           });
 
-        // Filter out unknown items (now with 'Ukendt' instead of 'Unknown/Other')
-        const filteredOffers = categorizedOffers.filter(
-          offer => !offer.categories.includes('Ukendt')
-        );
-        
-        console.log(`\nFiltered ${categorizedOffers.length - filteredOffers.length} offers with 'Ukendt' category`);
-        console.log(`Uploading ${filteredOffers.length} categorized offers to Firebase`);
-        
-        // Write categorized results to file before upload
-        await writeToFile('categorized-offers.json', JSON.stringify(categorizedOffers));
-        console.log('Wrote categorized offers to file for reference');
-        
         // Upload to Firebase
+        console.log('\nUploading filtered offers to Firebase...');
         await firebaseService.remove('offers');
-        await firebaseService.pushBatch('offers', categorizedOffers);
-        console.log(`Uploaded ${categorizedOffers.length} categorized offers to Firebase`);
+        await firebaseService.pushBatch('offers', filteredOffers);
+        console.log(`Uploaded ${filteredOffers.length} filtered offers to Firebase`);
       }
     };
     
