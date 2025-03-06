@@ -419,33 +419,6 @@
     "matchAccuracy": 53
   },
   {
-    "name": "Lay's eller Doritos chips",
-    "price": 10,
-    "valuta": "DKK",
-    "weight": 125,
-    "weight_unit": "g",
-    "store": "Netto",
-    "run_from": "2025-03-07T23:00:00+0000",
-    "run_till": "2025-03-14T22:59:59+0000",
-    "catelog_id": "mql7286I",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Chips",
-        "accuracy": 65,
-        "category": "Ukendt"
-      }
-    ],
-    "matchAccuracy": 65
-  },
-  {
     "name": "ØGO økologisk grøn pesto",
     "price": 12,
     "valuta": "DKK",
@@ -1073,11 +1046,6 @@
         "name": "Sirup",
         "accuracy": 65,
         "category": "Bageri"
-      },
-      {
-        "name": "Løg",
-        "accuracy": 46,
-        "category": "Grøntsager"
       }
     ],
     "matchAccuracy": 65
@@ -1414,33 +1382,6 @@
       }
     ],
     "matchAccuracy": 46
-  },
-  {
-    "name": "Taffel chips",
-    "price": 10,
-    "valuta": "DKK",
-    "weight": 110,
-    "weight_unit": "g",
-    "store": "Netto",
-    "run_from": "2025-02-28T23:00:00+0000",
-    "run_till": "2025-03-07T22:59:59+0000",
-    "catelog_id": "g8S_Fm3o",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Chips",
-        "accuracy": 65,
-        "category": "Ukendt"
-      }
-    ],
-    "matchAccuracy": 65
   },
   {
     "name": "Maille dijion sennep, Hellmann's mayonnaise eller burgerdressing",
@@ -2312,39 +2253,12 @@
         "category": "Proteiner"
       },
       {
-        "name": "Løg",
-        "accuracy": 46,
-        "category": "Grøntsager"
+        "name": "Grøn pesto",
+        "accuracy": 50,
+        "category": "Tilsætningsstoffer & Krydderier"
       }
     ],
     "matchAccuracy": 100
-  },
-  {
-    "name": "Løgismose Bag-in-Box",
-    "price": 99,
-    "valuta": "DKK",
-    "weight": 2.25,
-    "weight_unit": "l",
-    "store": "Netto",
-    "run_from": "2025-02-28T23:00:00+0000",
-    "run_till": "2025-03-07T22:59:59+0000",
-    "catelog_id": "g8S_Fm3o",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Løg",
-        "accuracy": 46,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Syltede løg",
-        "accuracy": 35,
-        "category": "Grøntsager"
-      }
-    ],
-    "matchAccuracy": 46
   },
   {
     "name": "Bådsmand varmrøget makrel",
@@ -5708,33 +5622,6 @@
     "matchAccuracy": 65
   },
   {
-    "name": "Chips",
-    "price": 10,
-    "valuta": "DKK",
-    "weight": 110,
-    "weight_unit": "g",
-    "store": "Lidl",
-    "run_from": "2025-03-12T23:00:00+0000",
-    "run_till": "2025-03-15T22:59:59+0000",
-    "catelog_id": "CJ3tE2cJ",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Chili",
-        "accuracy": 100,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Chips",
-        "accuracy": 100,
-        "category": "Ukendt"
-      }
-    ],
-    "matchAccuracy": 100
-  },
-  {
     "name": "Nutella",
     "price": 59,
     "valuta": "DKK",
@@ -6333,33 +6220,6 @@
     "matchAccuracy": 100
   },
   {
-    "name": "Chips",
-    "price": 9.95,
-    "valuta": "DKK",
-    "weight": 40,
-    "weight_unit": "g",
-    "store": "Lidl",
-    "run_from": "2025-03-01T23:00:00+0000",
-    "run_till": "2025-03-08T22:59:59+0000",
-    "catelog_id": "Td-HToSF",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Chili",
-        "accuracy": 100,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Chips",
-        "accuracy": 100,
-        "category": "Ukendt"
-      }
-    ],
-    "matchAccuracy": 100
-  },
-  {
     "name": "Noritang",
     "price": 15,
     "valuta": "DKK",
@@ -6730,33 +6590,6 @@
     "matchAccuracy": 100
   },
   {
-    "name": "Chips",
-    "price": 15,
-    "valuta": "DKK",
-    "weight": 135,
-    "weight_unit": "g",
-    "store": "Lidl",
-    "run_from": "2025-03-05T23:00:00+0000",
-    "run_till": "2025-03-08T22:59:59+0000",
-    "catelog_id": "Td-HToSF",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Chili",
-        "accuracy": 100,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Chips",
-        "accuracy": 100,
-        "category": "Ukendt"
-      }
-    ],
-    "matchAccuracy": 100
-  },
-  {
     "name": "Blomstrende løgplanter",
     "price": 30,
     "valuta": "DKK",
@@ -6782,33 +6615,6 @@
       }
     ],
     "matchAccuracy": 46
-  },
-  {
-    "name": "Chips",
-    "price": 15,
-    "valuta": "DKK",
-    "weight": 135,
-    "weight_unit": "g",
-    "store": "Lidl",
-    "run_from": "2025-03-05T23:00:00+0000",
-    "run_till": "2025-03-08T22:59:59+0000",
-    "catelog_id": "HdXFA6zV",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Chili",
-        "accuracy": 100,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Chips",
-        "accuracy": 100,
-        "category": "Ukendt"
-      }
-    ],
-    "matchAccuracy": 100
   },
   {
     "name": "Salame toscano eller bresaola",
@@ -6961,33 +6767,6 @@
       }
     ],
     "matchAccuracy": 59
-  },
-  {
-    "name": "Chips",
-    "price": 15,
-    "valuta": "DKK",
-    "weight": 135,
-    "weight_unit": "g",
-    "store": "Lidl",
-    "run_from": "2025-03-05T23:00:00+0000",
-    "run_till": "2025-03-08T22:59:59+0000",
-    "catelog_id": "HdXFA6zV",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Chili",
-        "accuracy": 100,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Chips",
-        "accuracy": 100,
-        "category": "Ukendt"
-      }
-    ],
-    "matchAccuracy": 100
   },
   {
     "name": "Graasten remoulade eller mayonnaise",
@@ -13944,33 +13723,6 @@
     "matchAccuracy": 65
   },
   {
-    "name": "Saltim bocca",
-    "price": 15,
-    "valuta": "DKK",
-    "weight": 320,
-    "weight_unit": "g",
-    "store": "Bilka",
-    "run_from": "2025-03-06T23:00:00+0000",
-    "run_till": "2025-03-13T22:59:59+0000",
-    "catelog_id": "oNmnOnGW",
-    "categories": [
-      "Fedtstoffer & Olier"
-    ],
-    "matchedItems": [
-      {
-        "name": "Saltet smør",
-        "accuracy": 50,
-        "category": "Fedtstoffer & Olier"
-      },
-      {
-        "name": "Salt",
-        "accuracy": 46,
-        "category": "Tilsætningsstoffer & Krydderier"
-      }
-    ],
-    "matchAccuracy": 50
-  },
-  {
     "name": "Fransk hotdog",
     "price": 25,
     "valuta": "DKK",
@@ -14260,33 +14012,6 @@
     "matchAccuracy": 46
   },
   {
-    "name": "KiMs chips",
-    "price": 10,
-    "valuta": "DKK",
-    "weight": 75,
-    "weight_unit": "g",
-    "store": "Bilka",
-    "run_from": "2025-02-27T23:00:00+0000",
-    "run_till": "2025-03-06T22:59:59+0000",
-    "catelog_id": "uJWyne2w",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Chips",
-        "accuracy": 65,
-        "category": "Ukendt"
-      }
-    ],
-    "matchAccuracy": 65
-  },
-  {
     "name": "Kyllingefilet eller -inderfilet",
     "price": 89,
     "valuta": "DKK",
@@ -14459,33 +14184,6 @@
       }
     ],
     "matchAccuracy": 70
-  },
-  {
-    "name": "Takis chips",
-    "price": 20,
-    "valuta": "DKK",
-    "weight": 71,
-    "weight_unit": "g",
-    "store": "Bilka",
-    "run_from": "2025-02-27T23:00:00+0000",
-    "run_till": "2025-03-06T22:59:59+0000",
-    "catelog_id": "uJWyne2w",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Chips",
-        "accuracy": 65,
-        "category": "Ukendt"
-      }
-    ],
-    "matchAccuracy": 65
   },
   {
     "name": "Kæmpeposen kylling",
@@ -14964,33 +14662,6 @@
       }
     ],
     "matchAccuracy": 100
-  },
-  {
-    "name": "Taffel chips",
-    "price": 16,
-    "valuta": "DKK",
-    "weight": 100,
-    "weight_unit": "g",
-    "store": "Bilka",
-    "run_from": "2025-02-27T23:00:00+0000",
-    "run_till": "2025-03-06T22:59:59+0000",
-    "catelog_id": "uJWyne2w",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Chips",
-        "accuracy": 65,
-        "category": "Ukendt"
-      }
-    ],
-    "matchAccuracy": 65
   },
   {
     "name": "Fredsted chai latte",
@@ -15826,33 +15497,6 @@
     "matchAccuracy": 41
   },
   {
-    "name": "Lay's chips 175 g",
-    "price": 12,
-    "valuta": "DKK",
-    "weight": 175,
-    "weight_unit": "g",
-    "store": "Rema1000",
-    "run_from": "2025-03-12T23:00:00+0000",
-    "run_till": "2025-03-15T22:59:59+0000",
-    "catelog_id": "73mRwdAp",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Chips",
-        "accuracy": 65,
-        "category": "Ukendt"
-      }
-    ],
-    "matchAccuracy": 65
-  },
-  {
     "name": "Gøl salami, spegepølse eller kødpølse i skiver 110-135 g",
     "price": 10,
     "valuta": "DKK",
@@ -15878,33 +15522,6 @@
       }
     ],
     "matchAccuracy": 100
-  },
-  {
-    "name": "Easis chips 50 g",
-    "price": 8,
-    "valuta": "DKK",
-    "weight": 50,
-    "weight_unit": "g",
-    "store": "Rema1000",
-    "run_from": "2025-03-01T23:00:00+0000",
-    "run_till": "2025-03-08T22:59:59+0000",
-    "catelog_id": "2G_Bn1oz",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Chips",
-        "accuracy": 65,
-        "category": "Ukendt"
-      }
-    ],
-    "matchAccuracy": 65
   },
   {
     "name": "Easis cornflakes, müsli, crunch eller granola 350-600 g",
@@ -16056,9 +15673,9 @@
         "category": "Tilsætningsstoffer & Krydderier"
       },
       {
-        "name": "Hvidvin",
-        "accuracy": 100,
-        "category": "Ukendt"
+        "name": "Hvidvinseddike",
+        "accuracy": 70,
+        "category": "Tilsætningsstoffer & Krydderier"
       }
     ],
     "matchAccuracy": 100
@@ -16083,9 +15700,9 @@
         "category": "Tilsætningsstoffer & Krydderier"
       },
       {
-        "name": "Hvidvin",
-        "accuracy": 100,
-        "category": "Ukendt"
+        "name": "Hvidvinseddike",
+        "accuracy": 70,
+        "category": "Tilsætningsstoffer & Krydderier"
       }
     ],
     "matchAccuracy": 100
@@ -29592,33 +29209,6 @@
     "matchAccuracy": 46
   },
   {
-    "name": "Pringles chips",
-    "price": 18,
-    "valuta": "DKK",
-    "weight": 165,
-    "weight_unit": "g",
-    "store": "Brugsen",
-    "run_from": "2025-02-27T23:00:00+0000",
-    "run_till": "2025-03-13T22:59:59+0000",
-    "catelog_id": "nHqaWyUe",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Chips",
-        "accuracy": 65,
-        "category": "Ukendt"
-      }
-    ],
-    "matchAccuracy": 65
-  },
-  {
     "name": "Coop hindbær",
     "price": 13,
     "valuta": "DKK",
@@ -31072,33 +30662,6 @@
     "matchAccuracy": 100
   },
   {
-    "name": "KIMS CHIPS",
-    "price": 9.77,
-    "valuta": "DKK",
-    "weight": 75,
-    "weight_unit": "g",
-    "store": "Løvbjerg",
-    "run_from": "2025-03-06T23:00:00+0000",
-    "run_till": "2025-03-13T22:59:59+0000",
-    "catelog_id": "LVMCJ6mB",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Chips",
-        "accuracy": 65,
-        "category": "Ukendt"
-      }
-    ],
-    "matchAccuracy": 65
-  },
-  {
     "name": "HEL DANSK KYLLING",
     "price": 28.87,
     "valuta": "DKK",
@@ -32548,33 +32111,6 @@
       }
     ],
     "matchAccuracy": 46
-  },
-  {
-    "name": "SALTEDE CHIPS",
-    "price": 10.5,
-    "valuta": "DKK",
-    "weight": 250,
-    "weight_unit": "g",
-    "store": "Løvbjerg",
-    "run_from": "2025-03-06T23:00:00+0000",
-    "run_till": "2025-03-13T22:59:59+0000",
-    "catelog_id": "LVMCJ6mB",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Chips",
-        "accuracy": 65,
-        "category": "Ukendt"
-      }
-    ],
-    "matchAccuracy": 65
   },
   {
     "name": "HYLDEBLOMST",
@@ -34077,33 +33613,6 @@
     "matchAccuracy": 46
   },
   {
-    "name": "SALTEDE CHIPS",
-    "price": 10.5,
-    "valuta": "DKK",
-    "weight": 250,
-    "weight_unit": "g",
-    "store": "Løvbjerg",
-    "run_from": "2025-02-27T23:00:00+0000",
-    "run_till": "2025-03-06T22:59:59+0000",
-    "catelog_id": "eCRK4RpU",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Chips",
-        "accuracy": 65,
-        "category": "Ukendt"
-      }
-    ],
-    "matchAccuracy": 65
-  },
-  {
     "name": "HYLDEBLOMST",
     "price": 7.99,
     "valuta": "DKK",
@@ -34871,10 +34380,10 @@
     "matchAccuracy": 70
   },
   {
-    "name": "Santagata økologisk olivenolie",
-    "price": 99,
+    "name": "Økologisk olivenolie",
+    "price": 49,
     "valuta": "DKK",
-    "weight": 1000,
+    "weight": 500,
     "weight_unit": "ml",
     "store": "Coop",
     "run_from": "2025-03-05T23:00:00+0000",
@@ -34886,16 +34395,16 @@
     "matchedItems": [
       {
         "name": "Olivenolie",
-        "accuracy": 53,
+        "accuracy": 65,
         "category": "Fedtstoffer & Olier"
       },
       {
-        "name": "Oliven",
-        "accuracy": 30,
-        "category": "Grøntsager"
+        "name": "Ekstra jomfru olivenolie",
+        "accuracy": 45,
+        "category": "Fedtstoffer & Olier"
       }
     ],
-    "matchAccuracy": 53
+    "matchAccuracy": 65
   },
   {
     "name": "365 økologisk bacon",
@@ -34999,33 +34508,6 @@
       }
     ],
     "matchAccuracy": 50
-  },
-  {
-    "name": "Long chips",
-    "price": 10,
-    "valuta": "DKK",
-    "weight": 75,
-    "weight_unit": "g",
-    "store": "Coop",
-    "run_from": "2025-03-05T23:00:00+0000",
-    "run_till": "2025-03-12T22:59:59+0000",
-    "catelog_id": "Rz6bAq_O",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Chips",
-        "accuracy": 65,
-        "category": "Ukendt"
-      }
-    ],
-    "matchAccuracy": 65
   },
   {
     "name": "Kebab dressing eller pitabrød",
@@ -35261,33 +34743,6 @@
       }
     ],
     "matchAccuracy": 46
-  },
-  {
-    "name": "Pringles chips",
-    "price": 12,
-    "valuta": "DKK",
-    "weight": 165,
-    "weight_unit": "g",
-    "store": "Coop",
-    "run_from": "2025-03-05T23:00:00+0000",
-    "run_till": "2025-03-12T22:59:59+0000",
-    "catelog_id": "Rz6bAq_O",
-    "categories": [
-      "Grøntsager"
-    ],
-    "matchedItems": [
-      {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Chips",
-        "accuracy": 65,
-        "category": "Ukendt"
-      }
-    ],
-    "matchAccuracy": 65
   },
   {
     "name": "Yoghurt",

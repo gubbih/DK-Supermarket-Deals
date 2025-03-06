@@ -131,6 +131,11 @@ async function main() {
       console.error(`Unknown command: ${command}`);
       console.log(`Available commands: ${Object.keys(commands).join(', ')}`);
     }
+    console.log('Scheduling process exit in 5 seconds...');
+    setTimeout(() => {
+      console.log('Exiting process');
+      process.exit(0);
+    }, 5000);
   } catch (error) {
     handleError(error, 'main', true);
   }

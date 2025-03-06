@@ -1016,17 +1016,17 @@
     "run_till": "2025-03-14T22:59:59+0000",
     "catelog_id": "mql7286I",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 50,
         "category": "Ukendt"
       }
     ],
@@ -2290,11 +2290,6 @@
         "name": "Sirup",
         "accuracy": 65,
         "category": "Bageri"
-      },
-      {
-        "name": "Løg",
-        "accuracy": 46,
-        "category": "Grøntsager"
       }
     ],
     "matchAccuracy": 65
@@ -4081,17 +4076,17 @@
     "run_till": "2025-03-07T22:59:59+0000",
     "catelog_id": "g8S_Fm3o",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 50,
         "category": "Ukendt"
       }
     ],
@@ -5910,9 +5905,9 @@
         "category": "Proteiner"
       },
       {
-        "name": "Løg",
-        "accuracy": 46,
-        "category": "Grøntsager"
+        "name": "Grøn pesto",
+        "accuracy": 50,
+        "category": "Tilsætningsstoffer & Krydderier"
       }
     ],
     "matchAccuracy": 100
@@ -5928,21 +5923,10 @@
     "run_till": "2025-03-07T22:59:59+0000",
     "catelog_id": "g8S_Fm3o",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
-    "matchedItems": [
-      {
-        "name": "Løg",
-        "accuracy": 46,
-        "category": "Grøntsager"
-      },
-      {
-        "name": "Syltede løg",
-        "accuracy": 35,
-        "category": "Grøntsager"
-      }
-    ],
-    "matchAccuracy": 46
+    "matchedItems": [],
+    "matchAccuracy": 0
   },
   {
     "name": "Løgismose økologisk Jysk hede eller Højland aged havarti",
@@ -16725,17 +16709,17 @@
     "run_till": "2025-03-15T22:59:59+0000",
     "catelog_id": "CJ3tE2cJ",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 100,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 100,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 85,
         "category": "Ukendt"
       }
     ],
@@ -18343,17 +18327,17 @@
     "run_till": "2025-03-08T22:59:59+0000",
     "catelog_id": "Td-HToSF",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 100,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 100,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 85,
         "category": "Ukendt"
       }
     ],
@@ -20690,17 +20674,17 @@
     "run_till": "2025-03-08T22:59:59+0000",
     "catelog_id": "Td-HToSF",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 100,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 100,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 85,
         "category": "Ukendt"
       }
     ],
@@ -21364,17 +21348,17 @@
     "run_till": "2025-03-08T22:59:59+0000",
     "catelog_id": "HdXFA6zV",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 100,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 100,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 85,
         "category": "Ukendt"
       }
     ],
@@ -22084,17 +22068,17 @@
     "run_till": "2025-03-08T22:59:59+0000",
     "catelog_id": "HdXFA6zV",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 100,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 100,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 85,
         "category": "Ukendt"
       }
     ],
@@ -22684,17 +22668,17 @@
     "run_till": "2025-03-31T21:59:59+0000",
     "catelog_id": "4dN18aY7",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 48,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 48,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 32,
         "category": "Ukendt"
       }
     ],
@@ -24740,9 +24724,9 @@
         "category": "Ukendt"
       },
       {
-        "name": "Chili",
+        "name": "Chips",
         "accuracy": 65,
-        "category": "Grøntsager"
+        "category": "Ukendt"
       }
     ],
     "matchAccuracy": 100
@@ -25192,17 +25176,17 @@
     "run_till": "2025-03-13T22:59:59+0000",
     "catelog_id": "4dN18aY7",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 50,
         "category": "Ukendt"
       }
     ],
@@ -31113,17 +31097,17 @@
     "run_till": "2025-03-06T22:59:59+0000",
     "catelog_id": "PC-InCrl",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 50,
         "category": "Ukendt"
       }
     ],
@@ -31600,17 +31584,17 @@
     "run_till": "2025-03-13T22:59:59+0000",
     "catelog_id": "RRQpyfLo",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 100,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 100,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 85,
         "category": "Ukendt"
       }
     ],
@@ -47466,17 +47450,17 @@
     "run_till": "2025-03-13T22:59:59+0000",
     "catelog_id": "oNmnOnGW",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 50,
         "category": "Ukendt"
       }
     ],
@@ -48549,21 +48533,10 @@
     "run_till": "2025-03-13T22:59:59+0000",
     "catelog_id": "oNmnOnGW",
     "categories": [
-      "Fedtstoffer & Olier"
+      "Ukendt"
     ],
-    "matchedItems": [
-      {
-        "name": "Saltet smør",
-        "accuracy": 50,
-        "category": "Fedtstoffer & Olier"
-      },
-      {
-        "name": "Salt",
-        "accuracy": 46,
-        "category": "Tilsætningsstoffer & Krydderier"
-      }
-    ],
-    "matchAccuracy": 50
+    "matchedItems": [],
+    "matchAccuracy": 0
   },
   {
     "name": "Salsiccia, nduja eller guanciale",
@@ -53257,17 +53230,17 @@
     "run_till": "2025-03-06T22:59:59+0000",
     "catelog_id": "uJWyne2w",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 50,
         "category": "Ukendt"
       }
     ],
@@ -53803,17 +53776,17 @@
     "run_till": "2025-03-06T22:59:59+0000",
     "catelog_id": "uJWyne2w",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 50,
         "category": "Ukendt"
       }
     ],
@@ -54240,17 +54213,17 @@
     "run_till": "2025-03-06T22:59:59+0000",
     "catelog_id": "uJWyne2w",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 48,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 48,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 32,
         "category": "Ukendt"
       }
     ],
@@ -55546,17 +55519,17 @@
     "run_till": "2025-03-06T22:59:59+0000",
     "catelog_id": "uJWyne2w",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 50,
         "category": "Ukendt"
       }
     ],
@@ -59745,17 +59718,17 @@
     "run_till": "2025-03-15T22:59:59+0000",
     "catelog_id": "73mRwdAp",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 50,
         "category": "Ukendt"
       }
     ],
@@ -60288,17 +60261,17 @@
     "run_till": "2025-03-08T22:59:59+0000",
     "catelog_id": "2G_Bn1oz",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 50,
         "category": "Ukendt"
       }
     ],
@@ -60347,17 +60320,17 @@
     "run_till": "2025-03-08T22:59:59+0000",
     "catelog_id": "2G_Bn1oz",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 50,
         "category": "Ukendt"
       }
     ],
@@ -61699,9 +61672,9 @@
         "category": "Tilsætningsstoffer & Krydderier"
       },
       {
-        "name": "Hvidvin",
-        "accuracy": 100,
-        "category": "Ukendt"
+        "name": "Hvidvinseddike",
+        "accuracy": 70,
+        "category": "Tilsætningsstoffer & Krydderier"
       }
     ],
     "matchAccuracy": 100
@@ -61780,9 +61753,9 @@
         "category": "Tilsætningsstoffer & Krydderier"
       },
       {
-        "name": "Hvidvin",
-        "accuracy": 100,
-        "category": "Ukendt"
+        "name": "Hvidvinseddike",
+        "accuracy": 70,
+        "category": "Tilsætningsstoffer & Krydderier"
       }
     ],
     "matchAccuracy": 100
@@ -61807,9 +61780,9 @@
         "category": "Tilsætningsstoffer & Krydderier"
       },
       {
-        "name": "Hvidvin",
-        "accuracy": 100,
-        "category": "Ukendt"
+        "name": "Hvidvinseddike",
+        "accuracy": 70,
+        "category": "Tilsætningsstoffer & Krydderier"
       }
     ],
     "matchAccuracy": 100
@@ -62873,9 +62846,9 @@
         "category": "Ukendt"
       },
       {
-        "name": "Chili",
+        "name": "Chips",
         "accuracy": 65,
-        "category": "Grøntsager"
+        "category": "Ukendt"
       }
     ],
     "matchAccuracy": 100
@@ -65214,9 +65187,9 @@
         "category": "Ukendt"
       },
       {
-        "name": "Chili",
+        "name": "Chips",
         "accuracy": 65,
-        "category": "Grøntsager"
+        "category": "Ukendt"
       }
     ],
     "matchAccuracy": 100
@@ -67313,9 +67286,9 @@
         "category": "Ukendt"
       },
       {
-        "name": "Chili",
+        "name": "Chips",
         "accuracy": 65,
-        "category": "Grøntsager"
+        "category": "Ukendt"
       }
     ],
     "matchAccuracy": 100
@@ -69412,9 +69385,9 @@
         "category": "Ukendt"
       },
       {
-        "name": "Chili",
+        "name": "Chips",
         "accuracy": 65,
-        "category": "Grøntsager"
+        "category": "Ukendt"
       }
     ],
     "matchAccuracy": 100
@@ -71274,9 +71247,9 @@
         "category": "Ukendt"
       },
       {
-        "name": "Chili",
+        "name": "Chips",
         "accuracy": 65,
-        "category": "Grøntsager"
+        "category": "Ukendt"
       }
     ],
     "matchAccuracy": 100
@@ -74592,9 +74565,9 @@
         "category": "Ukendt"
       },
       {
-        "name": "Chili",
+        "name": "Chips",
         "accuracy": 65,
-        "category": "Grøntsager"
+        "category": "Ukendt"
       }
     ],
     "matchAccuracy": 100
@@ -75719,9 +75692,9 @@
         "category": "Ukendt"
       },
       {
-        "name": "Chili",
+        "name": "Chips",
         "accuracy": 65,
-        "category": "Grøntsager"
+        "category": "Ukendt"
       }
     ],
     "matchAccuracy": 100
@@ -77818,9 +77791,9 @@
         "category": "Ukendt"
       },
       {
-        "name": "Chili",
+        "name": "Chips",
         "accuracy": 65,
-        "category": "Grøntsager"
+        "category": "Ukendt"
       }
     ],
     "matchAccuracy": 100
@@ -79917,9 +79890,9 @@
         "category": "Ukendt"
       },
       {
-        "name": "Chili",
+        "name": "Chips",
         "accuracy": 65,
-        "category": "Grøntsager"
+        "category": "Ukendt"
       }
     ],
     "matchAccuracy": 100
@@ -82016,9 +81989,9 @@
         "category": "Ukendt"
       },
       {
-        "name": "Chili",
+        "name": "Chips",
         "accuracy": 65,
-        "category": "Grøntsager"
+        "category": "Ukendt"
       }
     ],
     "matchAccuracy": 100
@@ -84115,9 +84088,9 @@
         "category": "Ukendt"
       },
       {
-        "name": "Chili",
+        "name": "Chips",
         "accuracy": 65,
-        "category": "Grøntsager"
+        "category": "Ukendt"
       }
     ],
     "matchAccuracy": 100
@@ -86214,9 +86187,9 @@
         "category": "Ukendt"
       },
       {
-        "name": "Chili",
+        "name": "Chips",
         "accuracy": 65,
-        "category": "Grøntsager"
+        "category": "Ukendt"
       }
     ],
     "matchAccuracy": 100
@@ -88307,9 +88280,9 @@
         "category": "Ukendt"
       },
       {
-        "name": "Chili",
+        "name": "Chips",
         "accuracy": 65,
-        "category": "Grøntsager"
+        "category": "Ukendt"
       }
     ],
     "matchAccuracy": 100
@@ -90411,9 +90384,9 @@
         "category": "Ukendt"
       },
       {
-        "name": "Chili",
+        "name": "Chips",
         "accuracy": 65,
-        "category": "Grøntsager"
+        "category": "Ukendt"
       }
     ],
     "matchAccuracy": 100
@@ -92261,9 +92234,9 @@
         "category": "Ukendt"
       },
       {
-        "name": "Chili",
+        "name": "Chips",
         "accuracy": 65,
-        "category": "Grøntsager"
+        "category": "Ukendt"
       }
     ],
     "matchAccuracy": 100
@@ -94853,17 +94826,17 @@
     "run_till": "2025-03-13T22:59:59+0000",
     "catelog_id": "nHqaWyUe",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 50,
         "category": "Ukendt"
       }
     ],
@@ -98797,13 +98770,13 @@
     "run_till": "2025-03-06T22:59:59+0000",
     "catelog_id": "_HT8LaUA",
     "categories": [
-      "Ukendt"
+      "Tilsætningsstoffer & Krydderier"
     ],
     "matchedItems": [
       {
         "name": "Rødvin",
         "accuracy": 30,
-        "category": "Ukendt"
+        "category": "Tilsætningsstoffer & Krydderier"
       }
     ],
     "matchAccuracy": 30
@@ -101276,17 +101249,17 @@
     "run_till": "2025-03-13T22:59:59+0000",
     "catelog_id": "LVMCJ6mB",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 50,
         "category": "Ukendt"
       }
     ],
@@ -103238,17 +103211,17 @@
     "run_till": "2025-03-13T22:59:59+0000",
     "catelog_id": "LVMCJ6mB",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 48,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 48,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 32,
         "category": "Ukendt"
       }
     ],
@@ -105068,17 +105041,17 @@
     "run_till": "2025-03-13T22:59:59+0000",
     "catelog_id": "LVMCJ6mB",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 70,
         "category": "Ukendt"
       }
     ],
@@ -109530,17 +109503,17 @@
     "run_till": "2025-03-06T22:59:59+0000",
     "catelog_id": "eCRK4RpU",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 70,
         "category": "Ukendt"
       }
     ],
@@ -111136,10 +111109,10 @@
     "matchAccuracy": 70
   },
   {
-    "name": "Santagata økologisk olivenolie",
-    "price": 99,
+    "name": "Økologisk olivenolie",
+    "price": 49,
     "valuta": "DKK",
-    "weight": 1000,
+    "weight": 500,
     "weight_unit": "ml",
     "store": "Coop",
     "run_from": "2025-03-05T23:00:00+0000",
@@ -111151,16 +111124,16 @@
     "matchedItems": [
       {
         "name": "Olivenolie",
-        "accuracy": 53,
+        "accuracy": 65,
         "category": "Fedtstoffer & Olier"
       },
       {
-        "name": "Oliven",
-        "accuracy": 30,
-        "category": "Grøntsager"
+        "name": "Ekstra jomfru olivenolie",
+        "accuracy": 45,
+        "category": "Fedtstoffer & Olier"
       }
     ],
-    "matchAccuracy": 53
+    "matchAccuracy": 65
   },
   {
     "name": "365 økologisk bacon",
@@ -111436,17 +111409,17 @@
     "run_till": "2025-03-12T22:59:59+0000",
     "catelog_id": "Rz6bAq_O",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 50,
         "category": "Ukendt"
       }
     ],
@@ -112629,17 +112602,17 @@
     "run_till": "2025-03-12T22:59:59+0000",
     "catelog_id": "Rz6bAq_O",
     "categories": [
-      "Grøntsager"
+      "Ukendt"
     ],
     "matchedItems": [
       {
-        "name": "Chili",
-        "accuracy": 65,
-        "category": "Grøntsager"
-      },
-      {
         "name": "Chips",
         "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 50,
         "category": "Ukendt"
       }
     ],
