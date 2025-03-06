@@ -1,0 +1,2226 @@
+[
+  {
+    "name": "Buko flødeost",
+    "price": 10,
+    "valuta": "DKK",
+    "weight": 200,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Fedtstoffer & Olier"
+    ],
+    "matchedItems": [
+      {
+        "name": "Flødeost",
+        "accuracy": 65,
+        "category": "Fedtstoffer & Olier"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "La Campagna udenlandske specialiteter",
+    "price": 10,
+    "valuta": "DKK",
+    "weight": 50,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Mammen skiveost",
+    "price": 10,
+    "valuta": "DKK",
+    "weight": 140,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Stryhns viking- eller familiepostej",
+    "price": 10,
+    "valuta": "DKK",
+    "weight": 275,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Hatting brød",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 420,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Kulhydrater"
+    ],
+    "matchedItems": [
+      {
+        "name": "Brød",
+        "accuracy": 46,
+        "category": "Kulhydrater"
+      }
+    ],
+    "matchAccuracy": 46
+  },
+  {
+    "name": "Schulstad levebrød",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 520,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Peter Larsen Kaffe blanding 66 formalet kaffe",
+    "price": 35,
+    "valuta": "DKK",
+    "weight": 400,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Tilsætningsstoffer & Krydderier"
+    ],
+    "matchedItems": [
+      {
+        "name": "Formalet kaffe",
+        "accuracy": 50,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Kaffe",
+        "accuracy": 40,
+        "category": "Tilsætningsstoffer & Krydderier"
+      }
+    ],
+    "matchAccuracy": 50
+  },
+  {
+    "name": "Egelykke spegepølse",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 100,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Spegepølse",
+        "accuracy": 65,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Velsmag dansk medister",
+    "price": 10,
+    "valuta": "DKK",
+    "weight": 300,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Velsmag dansk hakket grise- og kalvekød 8-12% eller Rose dansk hakket kyllingekød 7-10%",
+    "price": 20,
+    "valuta": "DKK",
+    "weight": 400,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Hakket kyllingekød",
+        "accuracy": 58,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Hakket oksekød",
+        "accuracy": 32,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Hakket svinekød",
+        "accuracy": 32,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Hakket lammekød",
+        "accuracy": 32,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 58
+  },
+  {
+    "name": "Hverdags kyllingestrimler eller -overlår",
+    "price": 17,
+    "valuta": "DKK",
+    "weight": 250,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Dansk kyllingefilet eller -inderfilet af landkylling",
+    "price": 45,
+    "valuta": "DKK",
+    "weight": 725,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Kyllingefilet",
+        "accuracy": 65,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Knorr dinner kit",
+    "price": 16,
+    "valuta": "DKK",
+    "weight": 136,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Velsmag hakket oksekød 8-12%",
+    "price": 32,
+    "valuta": "DKK",
+    "weight": 400,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Hakket oksekød",
+        "accuracy": 65,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Hakket kyllingekød",
+        "accuracy": 32,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Hakket svinekød",
+        "accuracy": 32,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Hakket lammekød",
+        "accuracy": 32,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Knorr sauce 3-pak",
+    "price": 10,
+    "valuta": "DKK",
+    "weight": 66,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Tilsætningsstoffer & Krydderier"
+    ],
+    "matchedItems": [
+      {
+        "name": "Oyster Sauce",
+        "accuracy": 38,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Teriyaki Sauce",
+        "accuracy": 38,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Hoisin Sauce",
+        "accuracy": 38,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "sur-sød sauce",
+        "accuracy": 38,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Sød Chili Sauce",
+        "accuracy": 33,
+        "category": "Tilsætningsstoffer & Krydderier"
+      }
+    ],
+    "matchAccuracy": 38
+  },
+  {
+    "name": "Ben & Jerry's isbæger",
+    "price": 39,
+    "valuta": "DKK",
+    "weight": 465,
+    "weight_unit": "ml",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Aldoni pizza speciale",
+    "price": 15,
+    "valuta": "DKK",
+    "weight": 330,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Velsmag dansk medister",
+    "price": 10,
+    "valuta": "DKK",
+    "weight": 300,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Godt papir",
+    "price": 10,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "kg",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Bakkedal smørbar",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 200,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Dava skrabeæg",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 10,
+    "weight_unit": "pcs",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "ØGO økologiske bøffer af dansk oksefilet",
+    "price": 69,
+    "valuta": "DKK",
+    "weight": 350,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Bistronne kyllingenuggets eller -schnitzel",
+    "price": 10,
+    "valuta": "DKK",
+    "weight": 240,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "ØGO økologisk kernerugbrød",
+    "price": 15,
+    "valuta": "DKK",
+    "weight": 600,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Kulhydrater"
+    ],
+    "matchedItems": [
+      {
+        "name": "Rugbrød",
+        "accuracy": 30,
+        "category": "Kulhydrater"
+      }
+    ],
+    "matchAccuracy": 30
+  },
+  {
+    "name": "Den Grønne Slagter pålæg",
+    "price": 10,
+    "valuta": "DKK",
+    "weight": 70,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner",
+      "Frugter",
+      "Grøntsager"
+    ],
+    "matchedItems": [
+      {
+        "name": "Pålæg",
+        "accuracy": 48,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Grønne linser",
+        "accuracy": 32,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Grønne æbler",
+        "accuracy": 32,
+        "category": "Frugter"
+      },
+      {
+        "name": "Grønne asparges",
+        "accuracy": 32,
+        "category": "Grøntsager"
+      },
+      {
+        "name": "Grønne bønner",
+        "accuracy": 32,
+        "category": "Grøntsager"
+      }
+    ],
+    "matchAccuracy": 48
+  },
+  {
+    "name": "Mou økologisk suppe eller kød- og melboller",
+    "price": 25,
+    "valuta": "DKK",
+    "weight": 500,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [
+      {
+        "name": "Mousserende vin",
+        "accuracy": 38,
+        "category": "Ukendt"
+      }
+    ],
+    "matchAccuracy": 38
+  },
+  {
+    "name": "Tulip bacon",
+    "price": 20,
+    "valuta": "DKK",
+    "weight": 300,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Bacon",
+        "accuracy": 65,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Bacon i skiver",
+        "accuracy": 45,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Bacon i tern",
+        "accuracy": 45,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "K-Salat pålægssalat",
+    "price": 10,
+    "valuta": "DKK",
+    "weight": 150,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner",
+      "Grøntsager"
+    ],
+    "matchedItems": [
+      {
+        "name": "Pålægssalat",
+        "accuracy": 65,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Pålægssalater",
+        "accuracy": 65,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Pålæg",
+        "accuracy": 30,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Salat",
+        "accuracy": 30,
+        "category": "Grøntsager"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Harvest Best grøntsager eller stir fry",
+    "price": 10,
+    "valuta": "DKK",
+    "weight": 70,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Cheasy yoghurt",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "l",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Yoghurt",
+        "accuracy": 65,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Græsk yoghurt",
+        "accuracy": 50,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Them økologisk skiveost",
+    "price": 22,
+    "valuta": "DKK",
+    "weight": 150,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Hello Sensitive bleer",
+    "price": 45,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Colgate mundpleje",
+    "price": 30,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Hanegal økologisk plantepostej",
+    "price": 13.26,
+    "valuta": "DKK",
+    "weight": 200,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Økologisk grapefrugt",
+    "price": 4.9,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Frugter"
+    ],
+    "matchedItems": [
+      {
+        "name": "Grapefrugt",
+        "accuracy": 65,
+        "category": "Frugter"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Rock&Roots Organic",
+    "price": 28,
+    "valuta": "DKK",
+    "weight": 75,
+    "weight_unit": "cl",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "ØGO økologisk tomatpassata",
+    "price": 11.16,
+    "valuta": "DKK",
+    "weight": 690,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Grøntsager"
+    ],
+    "matchedItems": [
+      {
+        "name": "Tomat",
+        "accuracy": 30,
+        "category": "Grøntsager"
+      }
+    ],
+    "matchAccuracy": 30
+  },
+  {
+    "name": "Steff Houlberg parisertoast 2-pak",
+    "price": 9.97,
+    "valuta": "DKK",
+    "weight": 200,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Ribeye steak",
+        "accuracy": 32,
+        "category": "Proteiner"
+      },
+      {
+        "name": "T-bone steak",
+        "accuracy": 32,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 32
+  },
+  {
+    "name": "Velsmag røget hamburgerryg, røget bacon eller dansk nakkefilet",
+    "price": 24.95,
+    "valuta": "DKK",
+    "weight": 0.5,
+    "weight_unit": "kg",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner",
+      "Tilsætningsstoffer & Krydderier"
+    ],
+    "matchedItems": [
+      {
+        "name": "Bacon",
+        "accuracy": 65,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Nakkefilet",
+        "accuracy": 65,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Røget tofu",
+        "accuracy": 50,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Røget peber",
+        "accuracy": 50,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Røget paprika",
+        "accuracy": 50,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Bacon i skiver",
+        "accuracy": 45,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Bacon i tern",
+        "accuracy": 45,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Faxe Kondi Booster",
+    "price": 4.97,
+    "valuta": "DKK",
+    "weight": 25,
+    "weight_unit": "cl",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Velsmag danske kyllingeunderlår eller -filet",
+    "price": 35,
+    "valuta": "DKK",
+    "weight": 450,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Blue Keld",
+    "price": 5,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "l",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Opvaskebørste",
+    "price": 7.95,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Premieur entrecotes",
+    "price": 99,
+    "valuta": "DKK",
+    "weight": 600,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Entrecote",
+        "accuracy": 30,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 30
+  },
+  {
+    "name": "De Danske Familiegårde dansk hel gårdkylling i stegepose",
+    "price": 49,
+    "valuta": "DKK",
+    "weight": 1350,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Kohberg fuldkornsburgerboller",
+    "price": 11.97,
+    "valuta": "DKK",
+    "weight": 330,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Kulhydrater"
+    ],
+    "matchedItems": [
+      {
+        "name": "Burgerboller",
+        "accuracy": 30,
+        "category": "Kulhydrater"
+      }
+    ],
+    "matchAccuracy": 30
+  },
+  {
+    "name": "Velsmag oksemørbrad",
+    "price": 79.95,
+    "valuta": "DKK",
+    "weight": 0.5,
+    "weight_unit": "kg",
+    "store": "Netto",
+    "run_from": "2025-03-12T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Oksemørbrad",
+        "accuracy": 65,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Breezer",
+    "price": 9,
+    "valuta": "DKK",
+    "weight": 27.5,
+    "weight_unit": "cl",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "La Campagna Tagliolini",
+    "price": 7,
+    "valuta": "DKK",
+    "weight": 250,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Lay's eller Doritos chips",
+    "price": 10,
+    "valuta": "DKK",
+    "weight": 125,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Grøntsager",
+      "Ukendt",
+      "Tilsætningsstoffer & Krydderier",
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Chili",
+        "accuracy": 65,
+        "category": "Grøntsager"
+      },
+      {
+        "name": "Chips",
+        "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Chili pulver",
+        "accuracy": 50,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Salt chips",
+        "accuracy": 50,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Tortilla chips",
+        "accuracy": 50,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Sød Chili Sauce",
+        "accuracy": 45,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Chili con carne mix",
+        "accuracy": 43,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Sourcream & Onion chips",
+        "accuracy": 43,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Dåse kidneybønner i chili sauce",
+        "accuracy": 41,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Stenfrie røde druer",
+    "price": 15,
+    "valuta": "DKK",
+    "weight": 500,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "ØGO økologisk grøn pesto",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 130,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Danske gulerødder",
+    "price": 6,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "kg",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Grøntsager"
+    ],
+    "matchedItems": [
+      {
+        "name": "Gul peber",
+        "accuracy": 35,
+        "category": "Grøntsager"
+      }
+    ],
+    "matchAccuracy": 35
+  },
+  {
+    "name": "Velsmag laksestykke",
+    "price": 59,
+    "valuta": "DKK",
+    "weight": 300,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Royal Export eller Heineken",
+    "price": 65,
+    "valuta": "DKK",
+    "weight": 33,
+    "weight_unit": "cl",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Burgerboost af dansk oksekød",
+    "price": 30,
+    "valuta": "DKK",
+    "weight": 350,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Hakket oksekød",
+        "accuracy": 32,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 32
+  },
+  {
+    "name": "ØGO økologisk spidskål",
+    "price": 15,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Grøntsager"
+    ],
+    "matchedItems": [
+      {
+        "name": "Spidskål",
+        "accuracy": 53,
+        "category": "Grøntsager"
+      }
+    ],
+    "matchAccuracy": 53
+  },
+  {
+    "name": "Graasten mayonnaise",
+    "price": 15,
+    "valuta": "DKK",
+    "weight": 375,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Fedtstoffer & Olier"
+    ],
+    "matchedItems": [
+      {
+        "name": "Mayonnaise",
+        "accuracy": 65,
+        "category": "Fedtstoffer & Olier"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Afskårne krydderurter",
+    "price": 10,
+    "valuta": "DKK",
+    "weight": 20,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Premieur brioche fuldkornsburgerboller",
+    "price": 22,
+    "valuta": "DKK",
+    "weight": 250,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Kulhydrater"
+    ],
+    "matchedItems": [
+      {
+        "name": "Burgerboller",
+        "accuracy": 30,
+        "category": "Kulhydrater"
+      }
+    ],
+    "matchAccuracy": 30
+  },
+  {
+    "name": "Premieur ananas",
+    "price": 20,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "pcs",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Frugter"
+    ],
+    "matchedItems": [
+      {
+        "name": "Ananas",
+        "accuracy": 65,
+        "category": "Frugter"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Dansk hakket kyllingekød 7-10%",
+    "price": 20,
+    "valuta": "DKK",
+    "weight": 400,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Hakket kyllingekød",
+        "accuracy": 65,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Hakket oksekød",
+        "accuracy": 32,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Hakket svinekød",
+        "accuracy": 32,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Hakket lammekød",
+        "accuracy": 32,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Cosmic Crisp æbler",
+    "price": 18,
+    "valuta": "DKK",
+    "weight": 6,
+    "weight_unit": "pcs",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Frugter"
+    ],
+    "matchedItems": [
+      {
+        "name": "Grønne æbler",
+        "accuracy": 38,
+        "category": "Frugter"
+      },
+      {
+        "name": "Røde æbler",
+        "accuracy": 38,
+        "category": "Frugter"
+      }
+    ],
+    "matchAccuracy": 38
+  },
+  {
+    "name": "Knorr lasagne",
+    "price": 16,
+    "valuta": "DKK",
+    "weight": 262,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Chestfords cremet mornaysauce",
+    "price": 15,
+    "valuta": "DKK",
+    "weight": 500,
+    "weight_unit": "ml",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Arla Lactofree laktosefri yoghurt eller mælk",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "l",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Yoghurt",
+        "accuracy": 48,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Græsk yoghurt",
+        "accuracy": 32,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 48
+  },
+  {
+    "name": "Kinder mælkesnitte eller Pingui",
+    "price": 30,
+    "valuta": "DKK",
+    "weight": 240,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Bageri"
+    ],
+    "matchedItems": [
+      {
+        "name": "Mælkesnitte",
+        "accuracy": 65,
+        "category": "Bageri"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Premieur røget eller gravad laks",
+    "price": 50,
+    "valuta": "DKK",
+    "weight": 250,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner",
+      "Tilsætningsstoffer & Krydderier"
+    ],
+    "matchedItems": [
+      {
+        "name": "Røget tofu",
+        "accuracy": 50,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Røget peber",
+        "accuracy": 50,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Røget paprika",
+        "accuracy": 50,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Laks",
+        "accuracy": 46,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 50
+  },
+  {
+    "name": "Arla Airy skyr",
+    "price": 5,
+    "valuta": "DKK",
+    "weight": 128,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Egelykke skæreost",
+    "price": 45,
+    "valuta": "DKK",
+    "weight": 560,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "BOLD iskaffe",
+    "price": 9,
+    "valuta": "DKK",
+    "weight": 250,
+    "weight_unit": "ml",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Tilsætningsstoffer & Krydderier"
+    ],
+    "matchedItems": [
+      {
+        "name": "Iskaffe",
+        "accuracy": 65,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Kaffe",
+        "accuracy": 30,
+        "category": "Tilsætningsstoffer & Krydderier"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Lillebror ostehaps",
+    "price": 10,
+    "valuta": "DKK",
+    "weight": 108,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Actimel 12-pak",
+    "price": 25,
+    "valuta": "DKK",
+    "weight": 100,
+    "weight_unit": "ml",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Varmrøget laks",
+    "price": 25,
+    "valuta": "DKK",
+    "weight": 100,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Laks",
+        "accuracy": 46,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 46
+  },
+  {
+    "name": "Tapas ost",
+    "price": 20,
+    "valuta": "DKK",
+    "weight": 150,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [
+      {
+        "name": "Ostestænger",
+        "accuracy": 65,
+        "category": "Ukendt"
+      },
+      {
+        "name": "Ostepops",
+        "accuracy": 65,
+        "category": "Ukendt"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Becel original flydende",
+    "price": 15,
+    "valuta": "DKK",
+    "weight": 500,
+    "weight_unit": "ml",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Rejer",
+    "price": 25,
+    "valuta": "DKK",
+    "weight": 170,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Rejer",
+        "accuracy": 100,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 100
+  },
+  {
+    "name": "Mammen skæreost",
+    "price": 70,
+    "valuta": "DKK",
+    "weight": 900,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Lykkeberg paté",
+    "price": 15,
+    "valuta": "DKK",
+    "weight": 200,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Grøntsager"
+    ],
+    "matchedItems": [
+      {
+        "name": "Grøn peber paté",
+        "accuracy": 31,
+        "category": "Grøntsager"
+      }
+    ],
+    "matchAccuracy": 31
+  },
+  {
+    "name": "Skagen fiskefrikadeller",
+    "price": 25,
+    "valuta": "DKK",
+    "weight": 380,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Fiskefrikadeller",
+        "accuracy": 65,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Bådsmand sild",
+    "price": 20,
+    "valuta": "DKK",
+    "weight": 250,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Sild",
+        "accuracy": 46,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 46
+  },
+  {
+    "name": "Sæby makrel i tomat 6-pak",
+    "price": 55,
+    "valuta": "DKK",
+    "weight": 750,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner",
+      "Grøntsager"
+    ],
+    "matchedItems": [
+      {
+        "name": "Makrel",
+        "accuracy": 44,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Tomat",
+        "accuracy": 44,
+        "category": "Grøntsager"
+      }
+    ],
+    "matchAccuracy": 44
+  },
+  {
+    "name": "Bistronne kyllingekebab, hele kyllingelår med rygben eller BBQ kyllingeunderlår",
+    "price": 30,
+    "valuta": "DKK",
+    "weight": 300,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Kyllingelår",
+        "accuracy": 48,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 48
+  },
+  {
+    "name": "Bellafonde jordbær marmelade",
+    "price": 16,
+    "valuta": "DKK",
+    "weight": 750,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Frugter"
+    ],
+    "matchedItems": [
+      {
+        "name": "Jordbær",
+        "accuracy": 53,
+        "category": "Frugter"
+      }
+    ],
+    "matchAccuracy": 53
+  },
+  {
+    "name": "Carte d'Or isbæger",
+    "price": 18,
+    "valuta": "DKK",
+    "weight": 650,
+    "weight_unit": "ml",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Tilsætningsstoffer & Krydderier"
+    ],
+    "matchedItems": [
+      {
+        "name": "Chili con carne mix",
+        "accuracy": 31,
+        "category": "Tilsætningsstoffer & Krydderier"
+      }
+    ],
+    "matchAccuracy": 31
+  },
+  {
+    "name": "Finton's lagkagebunde",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 240,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Bageri"
+    ],
+    "matchedItems": [
+      {
+        "name": "Lagkage",
+        "accuracy": 30,
+        "category": "Bageri"
+      }
+    ],
+    "matchAccuracy": 30
+  },
+  {
+    "name": "Tulip BBQ",
+    "price": 30,
+    "valuta": "DKK",
+    "weight": 450,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Egelykke kakaoskummetmælk",
+    "price": 10,
+    "valuta": "DKK",
+    "weight": 1,
+    "weight_unit": "l",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Jensens sauce",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 250,
+    "weight_unit": "ml",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Tilsætningsstoffer & Krydderier",
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Oyster Sauce",
+        "accuracy": 50,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Teriyaki Sauce",
+        "accuracy": 50,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Hoisin Sauce",
+        "accuracy": 50,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "sur-sød sauce",
+        "accuracy": 50,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Sød Chili Sauce",
+        "accuracy": 45,
+        "category": "Tilsætningsstoffer & Krydderier"
+      },
+      {
+        "name": "Dåse kidneybønner i chili sauce",
+        "accuracy": 41,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 50
+  },
+  {
+    "name": "Egelykke piskefløde",
+    "price": 20,
+    "valuta": "DKK",
+    "weight": 500,
+    "weight_unit": "ml",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Næmt stegt kylling",
+    "price": 18,
+    "valuta": "DKK",
+    "weight": 130,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Hel kylling",
+        "accuracy": 38,
+        "category": "Proteiner"
+      },
+      {
+        "name": "Ribeye steak",
+        "accuracy": 38,
+        "category": "Proteiner"
+      },
+      {
+        "name": "T-bone steak",
+        "accuracy": 38,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 38
+  },
+  {
+    "name": "Dagmar kager",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 140,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Bageri"
+    ],
+    "matchedItems": [
+      {
+        "name": "Chokolade kager",
+        "accuracy": 50,
+        "category": "Bageri"
+      },
+      {
+        "name": "Kage",
+        "accuracy": 46,
+        "category": "Bageri"
+      }
+    ],
+    "matchAccuracy": 50
+  },
+  {
+    "name": "Mamone hvedemel",
+    "price": 9,
+    "valuta": "DKK",
+    "weight": 2,
+    "weight_unit": "kg",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Bageri"
+    ],
+    "matchedItems": [
+      {
+        "name": "Hvedemel",
+        "accuracy": 65,
+        "category": "Bageri"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Rahbek fiskefileter",
+    "price": 25,
+    "valuta": "DKK",
+    "weight": 400,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Fiskefilet",
+        "accuracy": 65,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Oreo Cookies",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 154,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Steff Houlberg storkøbspølser",
+    "price": 45,
+    "valuta": "DKK",
+    "weight": 875,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Proteiner"
+    ],
+    "matchedItems": [
+      {
+        "name": "Ribeye steak",
+        "accuracy": 38,
+        "category": "Proteiner"
+      },
+      {
+        "name": "T-bone steak",
+        "accuracy": 38,
+        "category": "Proteiner"
+      }
+    ],
+    "matchAccuracy": 38
+  },
+  {
+    "name": "Corny bars 6-pak",
+    "price": 18,
+    "valuta": "DKK",
+    "weight": 120,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Beauvais ketchup",
+    "price": 29,
+    "valuta": "DKK",
+    "weight": 1250,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Tilsætningsstoffer & Krydderier"
+    ],
+    "matchedItems": [
+      {
+        "name": "Ketchup",
+        "accuracy": 65,
+        "category": "Tilsætningsstoffer & Krydderier"
+      }
+    ],
+    "matchAccuracy": 65
+  },
+  {
+    "name": "Santa Maria Tex Mex",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 28,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Sanex deodorant",
+    "price": 12,
+    "valuta": "DKK",
+    "weight": 50,
+    "weight_unit": "ml",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Ukendt"
+    ],
+    "matchedItems": [],
+    "matchAccuracy": 0
+  },
+  {
+    "name": "Bonduelle majs",
+    "price": 20,
+    "valuta": "DKK",
+    "weight": 280,
+    "weight_unit": "g",
+    "store": "Netto",
+    "run_from": "2025-03-07T23:00:00+0000",
+    "run_till": "2025-03-14T22:59:59+0000",
+    "catelog_id": "mql7286I",
+    "categories": [
+      "Grøntsager"
+    ],
+    "matchedItems": [
+      {
+        "name": "Majs",
+        "accuracy": 46,
+        "category": "Grøntsager"
+      }
+    ],
+    "matchAccuracy": 46
+  }
+]

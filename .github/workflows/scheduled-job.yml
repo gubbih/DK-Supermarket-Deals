@@ -51,8 +51,16 @@ jobs:
           echo "NODE_ENV=${{ env.NODE_ENV }}"
           
       - name: Run data update process
-        run: node src/index.js fetchAndProcessCatalogs
+        run: npm start
         
+      - name: Archive categorized offers
+        if: success()
+        uses: actions/upload-artifact@v3
+        with:
+          name: categorized-offers
+          path: src/data/categorized-offers.json
+          retention-days: 5
+          
       - name: Notify on success
         if: success()
         run: echo "Database update completed successfully!"

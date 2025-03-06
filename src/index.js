@@ -1,6 +1,5 @@
 const path = require('path');
 const fs = require('fs').promises;
-const config = require('./config');
 const setupApp = require('./setup');
 const { handleError } = require('./utils/errorHandler');
 const { fetchJson, categorizeOffers } = require('./services/foodComponentToCatalog');
@@ -69,19 +68,44 @@ async function main() {
         const foodComponentPath = path.join(__dirname, 'data', 'Foodcomponent.json');
         const categories = await fetchJson(foodComponentPath);
         const categorizedOffers = categorizeOffers(flattenedProducts, categories);
+        
+        // Generate statistics before filtering
+        console.log('\nCategorization statistics:');
+        const categoryStats = {};
+        categorizedOffers.forEach(offer => {
+          if (offer.categories[0]) {
+            categoryStats[offer.categories[0]] = (categoryStats[offer.categories[0]] || 0) + 1;
+          }
+        });
+
+        // Sort and display categories by count
+        Object.entries(categoryStats)
+          .sort((a, b) => b[1] - a[1])
+          .forEach(([category, count]) => {
+            console.log(`- ${category}: ${count} offers (${Math.round(count/categorizedOffers.length*100)}%)`);
+          });
+
+        // Filter out unknown items (now with 'Ukendt' instead of 'Unknown/Other')
         const filteredOffers = categorizedOffers.filter(
-          offer => !offer.categories.includes('Unknown/Other')
+          offer => !offer.categories.includes('Ukendt')
         );
+        
+        console.log(`\nFiltered ${categorizedOffers.length - filteredOffers.length} offers with 'Ukendt' category`);
+        console.log(`Uploading ${filteredOffers.length} categorized offers to Firebase`);
+        
+        // Write categorized results to file before upload
+        await writeToFile('categorized-offers.json', JSON.stringify(categorizedOffers));
+        console.log('Wrote categorized offers to file for reference');
         
         // Upload to Firebase
         await firebaseService.remove('offers');
-        await firebaseService.pushBatch('offers', filteredOffers);
-        console.log(`Uploaded ${filteredOffers.length} categorized offers to Firebase`);
+        await firebaseService.pushBatch('offers', categorizedOffers);
+        console.log(`Uploaded ${categorizedOffers.length} categorized offers to Firebase`);
       }
     };
     
-    // Get command from command line arguments or default to uploadFoodComponents
-    const command = process.argv[2] || 'uploadFoodComponents';
+    // Get command from command line arguments or default to fetchAndProcessCatalogs
+    const command = process.argv[2] || 'fetchAndProcessCatalogs';
     
     if (commands[command]) {
       await commands[command]();

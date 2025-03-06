@@ -4,13 +4,15 @@
   "description": "A project to print out catalogs and fetch offers from Danish supermarket catalogs.",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "test": "jest",
+    "start": "node src/index.js fetchAndProcessCatalogs",
+    "test": "node src/test.js",
+    "upload-components": "node src/index.js uploadFoodComponents",
+    "jest": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "lint": "eslint .",
-    "format": "prettier --write 'src/**/*.js'"
+    "format": "prettier --write 'src/**/*.js'",
+    "test-api": "node testWithAPI.js"
   },
   "dependencies": {
     "axios": "^1.8.1",
