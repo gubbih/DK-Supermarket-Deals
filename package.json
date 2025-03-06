@@ -4,17 +4,30 @@
   "description": "A project to print out catalogs and fetch offers from Danish supermarket catalogs.",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/uploadToDB.js",
-    "dev": "nodemon src/index.js"
+    "start": "node src/index.js fetchAndProcessCatalogs",
+    "test": "node src/test.js",
+    "upload-components": "node src/index.js uploadFoodComponents",
+    "jest": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint .",
+    "format": "prettier --write 'src/**/*.js'",
+    "test-api": "node testWithAPI.js"
   },
   "dependencies": {
-    "axios": "^1.7.9",
+    "axios": "^1.8.1",
     "dotenv": "^10.0.0",
-    "firebase": "^11.2.0",
+    "firebase": "^11.4.0",
     "firebase-admin": "^13.1.0"
   },
   "devDependencies": {
-    "nodemon": "^2.x.x"
+    "eslint": "^9.21.0",
+    "firebase-mock": "^2.3.2",
+    "jest": "^29.7.0",
+    "mock-fs": "^5.5.0",
+    "nock": "^14.0.1",
+    "nodemon": "^2.0.22",
+    "prettier": "^3.5.3"
   },
   "author": "",
   "license": "ISC"

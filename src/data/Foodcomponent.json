@@ -13,10 +13,20 @@
         "Tofu", "Silketofu", "Fast tofu", "Røget tofu", "Tempeh", "Seitan", "Jackfruit",
         "Linser", "Røde linser", "Grønne linser", "Brune linser", "Belugalinser", "Kikærter", "Bønner", 
         "Sorte bønner", "Hvide bønner", "Kidneybønner", "Edamamebønner", "Mungbønner",
-        "Nødder", "Mandler", "Valnødder", "Hasselnødder", "Paranødder", "Cashewnødder", "Pekanødder", 
-        "Macadamianødder", "Pistacienødder", "Pinjekerner",
         "Pålæg", "Spegepølse", "Pålægssalat", "Fiskefrikadeller", "Serranoskinke", "Parmaskinke", 
-        "Chorizo", "Salami", "Mortadella", "Leverpostej", "Rullepølse", "Roastbeef","Nakkefilet"
+        "Chorizo", "Salami", "Mortadella", "Leverpostej", "Rullepølse", "Roastbeef", "Nakkefilet",
+        "Bacon i skiver", "Bacon i tern", "Pålægssalater", "Toppings",
+        "Dåse kidneybønner", "Dåse hvide bønner", "Dåse sorte bønner", "Dåse cannellinibønner",
+        "Dåse pintobønner", "Dåse limabønner", "Dåse flageoletbønner", "Dåse borlottibønner",
+        "Dåse edamamebønner", "Dåse blandede bønner", "Dåse kikærter", "Dåse brune bønner",
+        "Dåse baked beans i tomatsauce", "Dåse mungbønner", "Dåse adzukibønner", "Dåse sojabønner",
+        "Dåse røde bønner", "Dåse kidneybønner i chili sauce", "Dåse hvide bønner i tomatsauce",
+        "Dåse grønne bønner", "Dåse voksbønner", "Dåse haricot verts", "Dåse øjebønner",
+        "Dåse hestebønner", "Yoghurt", "Græsk yoghurt", "Skyr", 
+        "A38", "Cultura", "Ymer", "Tykmælk", "Kærnemælk","Kebabkød",
+        "Pulled pork","Shawarma","Hakket kalvekød","Hakket grisekød","Kyllingeoverlår","Kyllingeunderlår","Kyllingestrimler",
+        "Kyllingekebab","Torskefillet","Skinkestrimler","Skiver ost","Skæreost","Mozzarella","Røget laks","Gravad laks","Bøffel mozzarella",
+        "Skrabeæg","Medister","Medisterpølse","Hamburgerryg","Torskerogn","Tapas ost"
       ]
   },
   {
@@ -31,7 +41,11 @@
       "Søde kartofler", "Havregryn", "Dåsemajs", "Majsmel", "Quinoa",
       "Byg", "Couscous", "Polenta", "Nudler", "Burgerboller", "Pizzadej",
       "Durumhvede", "Bulgur", "Maniok", "Sago", "Sorghum", "Tapioka", 
-      "Amarant", "Spelt", "Hirse", "Rug", "Müsli", "Cornflakes", "sorte bønner", "Dåsebønner"
+      "Amarant", "Spelt", "Hirse", "Rug", "Müsli", "Cornflakes",
+      "Rugbrød", "Nudler", "Fettuccine spinat", "Brød",
+      "Morgenmadsprodukter", "Cornflakes", "Granola", "Havrefras", 
+      "Müsliblanding", "Choko morgenmad", "Müslibars","Pitabrød","Kernerugbrød","Fuldkornsburgerboller","Brioche burgerboller",
+      "Makaroni","Tagliolini","burgerboller","Fuldkornsburgerboller"
     ]
   },
   {
@@ -47,7 +61,10 @@
         "Muffins", "Brownie", "Kage", "Lagkage", "Donut", "Bagværk", "Croissant", 
         "Wienerbrød", "Kanelsnegl", "Løvbjerg", "Luftige boller", "Kernebrød", "Ciabatta", 
         "Flutes", "Surdejsbrød", "Hvedebrød", "Kiks", "Knækbrød", "Småkager", "Majstivelse",
-        "Tærte", "Cheesecake", "Pandekager", "Vafler", "Eclairs", "Madeleinekager", "Tortillas"
+        "Tærte", "Cheesecake", "Pandekager", "Vafler", "Eclairs", "Madeleinekager", "Tortillas",
+        "Knækbrød", "Franske vafler", "Flager", "Kiks", "Chokolade", 
+        "Fyldt chokolade", "Chokoladebar", "Peanut chokolade", "Maltesers", "Mørk chokolade med nødder",
+        "Pålægschokolade", "Chokolade kager", "Mælkesnitte"
       ]
   },
   {
@@ -57,19 +74,23 @@
         "Olivenolie", "Ekstra jomfru olivenolie", "Vegetabilsk olie", "Rapsolie", "Kokosolie", 
         "Sesamolie", "Jordnøddeolie", "Solsikkeolie", "Vindruekerneolie", "Avocadoolie", 
         "Valnøddeolie", "Macadamiaolie", "Hørfrøolie", "Palmekerneolie", "Flødeost",
-        "Nødder", "Mandler", "Valnødder", "Hasselnødder", "Mælke",
+        "Nødder", "Mandler", "Valnødder", "Hasselnødder",
         "Paranødder", "Cashewnødder", "Pekanødder", "Macadamianødder", "Pistacienødder", 
         "Pinjekerner", "Nøddesmør", "Peanutbutter", "Mandelbutter", "Cashewsmør", "Cremefraiche",
-        "Frø", "Solsikkefrø", "Chiafrø", "Hørfrø", "Sesamfrø", "Græskarkerner", "Mayonnaise"
+        "Frø", "Solsikkefrø", "Chiafrø", "Hørfrø", "Sesamfrø", "Græskarkerner", "Mayonnaise",
+        "Mayonnaise", "Sennep", "Nødder",
+        "Nøddemix", "Saltede nødder", "Ristede nødder", "Pistacienødder", 
+        "Jordnødder"
       ]
   },
   {
     "category": "Frugter",
     "items": [
-      "Æble", "Grønne æbler","Røde æbler","Banan","Appelsin","Blodappelsin","Vindrue","Jordbær","Vandmelon","Cantaloupe",
-      "Pære","Ananas","Mango","Blåbær","Hindbær","Brombær","Kirsebær","Kiwi","Papaya","Granatæble","Blommer","Figner","Guava","Litchi",
-      "Passionsfrugt","Rambutan","Stjernefrugt","Abrikos","Avocado","Blomme","Citron","Drue","Fersken","Grapefrugt","Kernefrugt","Kokosnød",
-      "Mandarin","Oliven","Solbær","Stenfrugt","Stevnsbær","Surkirsebær"
+      "Æble", "Grønne æbler", "Røde æbler", "Banan", "Appelsin", "Blodappelsin", "Vindrue", "Jordbær", "Vandmelon", "Cantaloupe",
+      "Pære", "Ananas", "Mango", "Blåbær", "Hindbær", "Brombær", "Kirsebær", "Kiwi", "Papaya", "Granatæble", "Blommer", "Figner", "Guava", "Litchi",
+      "Passionsfrugt", "Rambutan", "Stjernefrugt", "Abrikos", "Avocado", "Blomme", "Citron", "Drue", "Fersken", "Grapefrugt", "Kernefrugt", "Kokosnød",
+      "Mandarin", "Oliven", "Solbær", "Stenfrugt", "Stevnsbær", "Surkirsebær", "Lime", "True Dates", "Dadler"
+      
     ]
   },
   {
@@ -87,12 +108,13 @@
         "Kartofler", "Bagekartofler", "Søde kartofler", "Batater", "Yams", "Cassava", "Taro", "Lotusrod",
         "Aubergine", "Squash", "Zucchini", "Græskar", "Hokkaido græskar", "Butternut squash", "Spaghettisquash",
         "Bønner", "Grønne bønner", "Sukkerærter", "Snespire", "Edamame", "Bønnespirer", "Mungbønnespirer",
-        "Hakkede tomater","Flåede tomater", "Tomatpuré", "Syltede rødbeder", "Syltede agurker", "Artiskok", "Asie", 
+        "Hakkede tomater", "Flåede tomater", "Tomatpuré", "Syltede rødbeder", "Syltede agurker", "Artiskok", "Asie", 
         "Fennikel", "Okra", "Bambusskud", "Vandkastanjer", "Citrongræs", "Kapers", 
         "Tang", "Nori", "Wakame", "Kombu", "Dulse", "Persille",
         "Oliven", "Majs", "Dåsemajs", "Grillet peberfrugt", "Syltede løg",
         "Rabarber", "Sølvbede", "Brøndkarse", "Mizuna", "Rucola", "Radicchio", "Endivie", "Julesalat",
-        "Vandmelonradise", "Bitter melon", "Sød kartoffelblad", "Aloe vera","Lime","Citron", "Cornichoner"
+        "Vandmelonradise", "Bitter melon", "Sød kartoffelblad", "Aloe vera", "Cornichoner",
+        "Hakkede tomater", "Grøn peber paté","Stir fry grøntsager","Wokblanding","Gulerødder"
       ]
   },
   {
@@ -107,8 +129,8 @@
         "Kanelstænger", "Stødt kanel", "Muskatnød", "Stødt muskat", "Hele muskatnødder", 
         "Nelliker", "Stødt nelliker", "Kardemommekapsler", "Stødt kardemomme",
         "Korianderfrø", "Stødt koriander", "Dild", "Purløg", "Estragon", "Sojasauce", "Soya", 
-        "Fiskesauce", "Sriracha ", "Østerssauce", "Oyster Sauce", "Teriyaki Sauce", "Hoisin Sauce", 
-        "Sød Chili Sauce", "sur-sød sauce", "Ponzu", "Kulør", "Cayennepeber", "Brun Farin", 
+        "Fiskesauce", "Sriracha", "Østerssauce", "Oyster Sauce", "Teriyaki Sauce", "Hoisin Sauce", 
+        "Sød Chili Sauce", "sur-sød sauce", "Ponzu", "Kulør", "Brun Farin", 
         "Timian", "Rosmarin", "Oregano", "Basilikum", "Persille", "Salvie", "Merian", 
         "Laurbærblade", "Stjerneanis", "Fennikelfrø", "Allehånde", "Bukkehornsfrø",
         "Vaniljesukker", "Vaniljestang", "Tonka bønner", "Lakridspulver",
@@ -124,7 +146,26 @@
         "Orangecuracao", "Angostura bitters", "Malteddike", "Risvineddike", "Balsamicoeddike",
         "Shichimi togarashi", "Nanami togarashi", "Hvidvin", "Lagereddike", "Frugteddike", "Hvidvinseddike", 
         "Rødvinseddike", "Sherryeddike", "Riseddike", "Æbleeddike", "Blommeeddike", "Kirsebæreddike", "Hindbæreddike", "Hyldeblomsteddike",
-        "Wasabipulver", "Matchapulver", "Blomsterpollen", "Dijon sennep", "Sennep"
+        "Wasabipulver", "Matchapulver", "Blomsterpollen", "Dijon sennep", "Sennep", "Ketchup",
+        "Kaffe", "Hele kaffebønner", "Formalet kaffe", "Jensens Sauce", "Rødvin",
+        "Instant kaffe", "Stempelkande kaffe", "Grøn pesto","Mornaysauce","Burgerdressing",
+        "Espresso", "Koffeinfri kaffe", "Kaffekapsler", "Te", "Sort te", "Grøn te", 
+        "Urtete", "Chai", "Chai Latte", "Iskaffe", "Kaffespecialiteter","Tomatpasta","Tomatpure"
       ]
+  },
+  {
+    "category": "Ukendt",
+    "items": [
+      "Sodavand", "Cola", "Pepsi", "Fanta", "Sprite", "Danskvand", "Mineralvand", "Kildevand", "Iste", 
+      "Sportsdrik", "Energidrik", "Læskedrik", 
+      "Alkoholiske cider", "Alkohol mixere",
+      "Øl", "Pilsner", "Craft øl", "Rosévin", "Mousserende vin", "Cava", 
+      "Champagne", "Zinfandel", "Garganega", 
+      "Chablis", "Côtes du Rhône", "Vodka","Havredrik", "Mandeldrik", "Sojadrik", "Havremælk",
+      "Whisky", "Snaps", "Rom", "Gin", "Tequila", "Likør","Slik", "Slikposer","Lakrids", "Vingummi", "Skumbananer", 
+      "Ostestænger", "Ostepops", "Chips", "Salt chips", "Sourcream & Onion chips", "Popcorn", "Tortilla chips", "Nachos",
+      "Juice", "Appelsinjuice", "Æblejuice", "Multijuice"
+      
+    ]
   }
 ]

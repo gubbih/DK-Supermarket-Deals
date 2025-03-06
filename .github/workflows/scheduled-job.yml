@@ -1,22 +1,20 @@
-name: Run JavaScript script
-
+name: Update Product Database
 on:
   schedule:
     - cron: '0 2 * * 0,1,5'  # Runs at 02:00 UTC on Sunday, Monday, and Friday
   workflow_dispatch:  # Allows manual triggering
-
-env:
-  GLOBAL_VAR: "This is a global variable"
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
     environment: DKSD secret keys
     env:
-      JOB_VAR: "This is a job-level variable"
+      # API Configuration
       API_KEY: ${{ secrets.API_KEY }}
       TRACK_ID: ${{ secrets.TRACK_ID }}
       BUSINESS_IDS: ${{ secrets.BUSINESS_IDS }}
+      
+      # Firebase Configuration
       FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
       FIREBASE_AUTH_DOMAIN: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
       FIREBASE_DATABASE_URL: ${{ secrets.FIREBASE_DATABASE_URL }}
@@ -25,27 +23,48 @@ jobs:
       FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}
       FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
       FIREBASE_MEASUREMENT_ID: ${{ secrets.FIREBASE_MEASUREMENT_ID }}
-
+      
+      # Firebase Admin Authentication
+      FIREBASE_ADMIN_EMAIL: ${{ secrets.FIREBASE_ADMIN_EMAIL }}
+      FIREBASE_ADMIN_PASSWORD: ${{ secrets.FIREBASE_ADMIN_PASSWORD }}
+      
+      # Production settings
+      NODE_ENV: production
+      BYPASS_ADMIN_CHECK: false
+      
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-
+        
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
-
+          
       - name: Install dependencies
         run: npm install
-
-      - name: Debug Environment Variables
+        
+      - name: Debug Environment Variables (redacted)
         run: |
-          echo "GLOBAL_VAR=${{ env.GLOBAL_VAR }}"
-          echo "JOB_VAR=${{ env.JOB_VAR }}"
-          echo "API_KEY=${{ env.API_KEY }}"
-          echo "TRACK_ID=${{ env.TRACK_ID }}"
-          echo "BUSINESS_IDS=${{ env.BUSINESS_IDS }}"
+          echo "API_KEY=********"
           echo "FIREBASE_DATABASE_URL=${{ env.FIREBASE_DATABASE_URL }}"
-
-      - name: Run uploadToDB script
-        run: node src/uploadToDB.js
+          echo "NODE_ENV=${{ env.NODE_ENV }}"
+          
+      - name: Run data update process
+        run: npm start
+        
+      - name: Archive categorized offers
+        if: success()
+        uses: actions/upload-artifact@v3
+        with:
+          name: categorized-offers
+          path: src/data/categorized-offers.json
+          retention-days: 5
+          
+      - name: Notify on success
+        if: success()
+        run: echo "Database update completed successfully!"
+        
+      - name: Notify on failure
+        if: failure()
+        run: echo "Database update failed! Check logs for details."

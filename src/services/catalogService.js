@@ -1,16 +1,20 @@
-const axios = require(`axios`);
-const config = require(`../config/config`);
+const axios = require('axios');
+const config = require('../config');
 
 class CatalogService {
+    constructor() {
+        this.config = config.api;
+    }
+
     async fetchCatalogIds() {
-        if (!config.businessIds || !Array.isArray(config.businessIds)) {
+        if (!this.config.businessIds || !Array.isArray(this.config.businessIds)) {
             throw new Error("Invalid or missing businessIds in config.");
         }
 
         try {
-            const catalogRequests = config.businessIds.map(async (business) => {
+            const catalogRequests = this.config.businessIds.map(async (business) => {
                 console.log(`Fetching catalogs for business ID: ${business.id}...`);
-                const response = await axios.get(`https://squid-api.tjek.com/v2/catalogs`, {
+                const response = await axios.get(`${this.config.baseUrl}/catalogs`, {
                     params: {
                         dealer_id: business.id,
                         order_by: `-publication_date`,
@@ -46,7 +50,7 @@ class CatalogService {
     async fetchHotspots(catalog) {
         try {
             console.log(`Fetching hotspots for catalog ID: ${catalog.id}...`);
-            const response = await axios.get(`https://squid-api.tjek.com/v2/catalogs/${catalog.id}/hotspots`);
+            const response = await axios.get(`${this.config.baseUrl}/catalogs/${catalog.id}/hotspots`);
 
             if (!response.data || !Array.isArray(response.data)) {
                 console.error(`Invalid response structure in fetchHotspots:`, response.data);
