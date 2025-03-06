@@ -114,7 +114,7 @@ function areSimilarDanishWords(word1, word2) {
         ['ost', 'frost'],    // Blocks "ost" matching with "frost"
         ['kar', 'karry'],    // Blocks "kar" matching with "karry"
         ['bar', 'barber'],   // Blocks "bar" matching with "barber"
-        ['ris', 'pris']      // Blocks "ris" matching with "pris"
+        ['ris', 'pris'],      // Blocks "ris" matching with "pris"
         ['løg', 'løgismose'], // Blocks "Løg" matching with "Løgkompot"
         ['chips', 'chili'],
     ];
