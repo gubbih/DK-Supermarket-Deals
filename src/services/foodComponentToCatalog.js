@@ -115,6 +115,8 @@ function areSimilarDanishWords(word1, word2) {
         ['kar', 'karry'],    // Blocks "kar" matching with "karry"
         ['bar', 'barber'],   // Blocks "bar" matching with "barber"
         ['ris', 'pris']      // Blocks "ris" matching with "pris"
+        ['løg', 'løgismose'], // Blocks "Løg" matching with "Løgkompot"
+        ['chips', 'chili'],
     ];
     
     // Check if this pair is blocked
@@ -195,7 +197,7 @@ function getPreparedMealPenalty(productName) {
         "marineret", "marinerede", "krydrede", "krydret", 
         "grillet", "stegt", "bagt",
         "pakke", "meal", "frokost", "aftensmad",
-        "morgenmad", "middag", "snack", "tapas", "servering"
+        "morgenmad", "middag", "snack", "tapas", "servering", "Saltim bocca"
     ];
     
     // Strong indicators should carry a higher penalty
@@ -464,6 +466,8 @@ function filterPreparedMeals(categorizedOffers, accuracyThreshold = 40, matchIte
         "battery", "batteries", "lighter", "matches", "soap", "detergent",
         "puder", "dyne", "dyner", "sengetøj", "sengetøjs", "senge", "seng",
         "madrasser", "madras", "pudebetræk", "dynebetræk", "lagnet", "lagner",
+        "Aida Relief blå", "Aida Relief rød", "Aida Relief grøn", "Aida Relief gul",
+        "Aida Relief sort", "Aida Relief hvid", "Aida Relief orange", "Aida Relief lilla",
 
     ];
     
