@@ -1,11 +1,19 @@
-const fs = require(`fs`).promises;
+/**
+ * Enhanced food component matching algorithm for Danish food offers
+ * 
+ * This module provides improved functionality for categorizing Danish food products
+ * with better handling of Danish language nuances, more accurate prepared meal detection,
+ * and implementation of single category per product.
+ */
+
+const fs = require('fs').promises;
 
 /**
  * Read JSON data from a file
  */
 async function fetchJson(filePath) {
     try {
-        const data = await fs.readFile(filePath, `utf8`);
+        const data = await fs.readFile(filePath, 'utf8');
         return JSON.parse(data);
     } catch (err) {
         console.error(`Error reading file from disk: ${err}`);
@@ -13,29 +21,50 @@ async function fetchJson(filePath) {
 }
 
 /**
- * Expands hyphenated words by borrowing the prefix from previous words
- * e.g. "kyllingfilet eller -inderfilet" becomes "kyllingfilet eller kyllinginderfilet"
+ * Expands hyphenated words by borrowing the prefix from previous words and
+ * handles common Danish food product naming patterns
  */
 function expandHyphenatedWords(text) {
-    const words = text.split(/\s+/);
-    for (let i = 1; i < words.length; i++) {
-        if (words[i].startsWith('-')) {
-            // Find the most recent non-hyphenated word
-            for (let j = i-1; j >= 0; j--) {
-                if (!words[j].startsWith('-') && !words[j].match(/eller|og|,|&/)) {
-                    // Extract the root part of the previous word
-                    const rootMatch = words[j].match(/([a-zæøåA-ZÆØÅ]+)/);
-                    if (rootMatch && rootMatch[0]) {
-                        const root = rootMatch[0];
-                        // Replace hyphen with the root
-                        words[i] = root + words[i].substring(1);
+    if (!text) return '';
+    
+    // First, clean up the product name
+    // Remove common size/quantity indicators like "500g" or "2 stk"
+    text = text.replace(/\b\d+\s*(g|kg|ml|l|cl|stk)\b/gi, '');
+    
+    // Remove percentage indicators
+    text = text.replace(/\b\d+\s*%\b/g, '');
+    
+    // Handle the "eller/og" splits separately for better processing
+    const parts = text.split(/\s+eller\s+|\s+og\s+|\s+&\s+/);
+    const expandedParts = [];
+    
+    for (const part of parts) {
+        const words = part.split(/\s+/);
+        
+        // Process hyphenated words in each part
+        for (let i = 1; i < words.length; i++) {
+            if (words[i].startsWith('-')) {
+                // Find the most recent non-hyphenated word
+                for (let j = i-1; j >= 0; j--) {
+                    if (!words[j].startsWith('-') && !words[j].match(/eller|og|,|&/)) {
+                        // Extract the root part of the previous word
+                        const rootMatch = words[j].match(/([a-zæøåA-ZÆØÅ]+)/);
+                        if (rootMatch && rootMatch[0]) {
+                            const root = rootMatch[0];
+                            // Replace hyphen with the root
+                            words[i] = root + words[i].substring(1);
+                        }
+                        break;
                     }
-                    break;
                 }
             }
         }
+        
+        expandedParts.push(words.join(' '));
     }
-    return words.join(' ');
+    
+    // Recombine the processed parts
+    return expandedParts.join(' eller ');
 }
 
 /**
@@ -54,6 +83,7 @@ function areSimilarDanishWords(word1, word2) {
     
     // Block specific false matches - add problematic pairs here as needed
     const blockedMatches = [
+        // Keep your existing blocked matches
         ['hel', 'hell'],     // Blocks "Hel kylling" matching with "Hellmann's"
         ['san', 'sand'],     // Blocks "San Miguel" matching with "Sandart"
         ['te', 'ste'],       // Blocks "te" matching with words containing "ste"
@@ -70,7 +100,21 @@ function areSimilarDanishWords(word1, word2) {
         ['vand', 'danskvand'], // Blocks "dansk" matching with "danskvand"
         ['dansk', 'danskvand'], // Blocks "dansk" matching with "danskvand"
         ['spelt', 'specialitet'], // Blocks "specialitet" matching with "spelt"
-        ['ger', 'burger']    // Blocks "ger" matching with "burger"
+        ['ger', 'burger'],   // Blocks "ger" matching with "burger"
+        // Add more problematic pairs
+        ['øl', 'olie'],      // Blocks "øl" matching with "olie"
+        ['is', 'chips'],     // Blocks "is" matching with "chips"
+        ['is', 'kiks'],      // Blocks "is" matching with "kiks"
+        ['mel', 'mel'],      // Keep "mel" matching with exact "mel" only
+        ['te', 'te'],        // Keep "te" matching with exact "te" only
+        ['salt', 'salat'],   // Blocks "salt" matching with "salat"
+        ['vin', 'vingummi'], // Blocks "vin" matching with "vingummi"
+        ['vin', 'vineddike'], // Blocks "vin" matching with "vineddike"
+        ['ost', 'postej'],   // Blocks "ost" matching with "postej"
+        ['ost', 'frost'],    // Blocks "ost" matching with "frost"
+        ['kar', 'karry'],    // Blocks "kar" matching with "karry"
+        ['bar', 'barber'],   // Blocks "bar" matching with "barber"
+        ['ris', 'pris']      // Blocks "ris" matching with "pris"
     ];
     
     // Check if this pair is blocked
@@ -79,6 +123,12 @@ function areSimilarDanishWords(word1, word2) {
             (word1.includes(b) && word2.includes(a))) {
             return false;
         }
+    }
+    
+    // Special case for Danish "æg" (eggs)
+    if ((word1 === 'æg' && word2.match(/^æg(s|ene)?$/)) || 
+        (word2 === 'æg' && word1.match(/^æg(s|ene)?$/))) {
+        return true;
     }
     
     // Special case for short words - they must match exactly or be a prefix/suffix
@@ -131,24 +181,65 @@ function isAtWordBoundary(word, text) {
  * Returns a confidence score reduction if it appears to be a prepared meal
  */
 function getPreparedMealPenalty(productName) {
+    if (!productName) return 0;
+    
     const PREPARED_INDICATORS = [
-        "dinner kit", "kit", "meal kit", "ready", "mikrobølgeovn",
-        "instant", "ready to", "klar til", "hurtig", "opvarm", "ovn",
-        "færdigret", "ret med", "ret i", "færdig", "convenience",
-        "frossen ret", "let at", "hurtig at", "parat til"
+        // English indicators
+        "dinner kit", "kit", "meal kit", "ready", 
+        // Danish indicators
+        "mikrobølgeovn", "færdigret", "ret med", "ret i", "færdig",
+        "convenience", "frossen ret", "let at", "hurtig at", "parat til",
+        "instant", "klar til", "hurtig", "opvarm", "ovn",
+        // Additional Danish prepared meal indicators
+        "måltid", "samlet", "sammensat", "tilberedt", "tilbehør",
+        "marineret", "marinerede", "krydrede", "krydret", 
+        "grillet", "stegt", "bagt",
+        "pakke", "meal", "frokost", "aftensmad",
+        "morgenmad", "middag", "snack", "tapas", "servering"
+    ];
+    
+    // Strong indicators should carry a higher penalty
+    const STRONG_INDICATORS = [
+        "færdigret", "måltid", "aftensmad", "sammensat",
+        "tilberedt", "meal kit", "dinner kit"
     ];
     
     const lowerName = productName.toLowerCase();
     
-    // Check if the product name contains any of our prepared meal indicators
-    for (const indicator of PREPARED_INDICATORS) {
+    // Check for strong indicators (higher penalty)
+    for (const indicator of STRONG_INDICATORS) {
         if (lowerName.includes(indicator)) {
-            return 50; // Significant penalty for prepared meal indicators
+            return 75; // Very high penalty
         }
     }
     
-    // No penalty - likely a food component
-    return 0;
+    // Check for regular indicators with more nuanced context detection
+    for (const indicator of PREPARED_INDICATORS) {
+        if (lowerName.includes(indicator.toLowerCase())) {
+            // Handle special cases for sovs/sauce and dressing
+            if (indicator === "sovs" || indicator === "sauce" || indicator === "dressing" || indicator === "mix") {
+                // These are only prepared meals when combined with other terms
+                // Allow "pizza dressing", "bernies sovs", etc. as ingredients
+                if (lowerName === indicator || lowerName.match(/\b(pizza|bernies|bearnaise|brun|chili)\s+(sovs|sauce|dressing)\b/i)) {
+                    continue; // Skip the penalty, this is a purchasable ingredient
+                }
+            }
+            return 50; // Significant penalty
+        }
+    }
+    
+    // Check for dish patterns (like "X med Y")
+    if (lowerName.match(/\s+med\s+/) && lowerName.split(/\s+/).length > 3) {
+        return 40; // Likely a dish description
+    }
+    
+    // Check for complex names (longer product names are often prepared meals)
+    const wordCount = lowerName.split(/\s+/).length;
+    if (wordCount >= 5) {
+        return 20 + Math.min(30, (wordCount - 5) * 5); // Increasing penalty with word count
+    }
+    
+    return 0; // No penalty - likely a food component
 }
 
 /**
@@ -158,7 +249,19 @@ function getPreparedMealPenalty(productName) {
  * @param {Number} matchItemsLimit - Maximum number of matched items to keep per offer (0 = no limit)
  * @returns {Array} - The categorized offers with accuracy scores
  */
-function categorizeOffers(offers, categories, matchItemsLimit = 3) {
+function categorizeOffers(offers, categories, matchItemsLimit = 2) {
+    // Define category priority mapping (higher value = higher priority)
+    const CATEGORY_PRIORITY = {
+        'Proteiner': 10,
+        'Bageri': 9,
+        'Kulhydrater': 8,
+        'Grøntsager': 7,
+        'Frugter': 6,
+        'Fedtstoffer & Olier': 5,
+        'Tilsætningsstoffer & Krydderier': 3,
+        'Ukendt': 1
+    };
+
     return offers.map(offer => {
         let matchedItems = []; // Array to store items with their scores
         
@@ -226,7 +329,6 @@ function categorizeOffers(offers, categories, matchItemsLimit = 3) {
                     });
                     
                     // Check if the whole item name is contained in the product name
-                    // This helps identify core ingredients even in prepared product names
                     if (productName.toLowerCase().includes(item.toLowerCase())) {
                         // Make sure it's at a word boundary for short items
                         if (item.length <= 4 && !isAtWordBoundary(item, productName)) {
@@ -238,7 +340,6 @@ function categorizeOffers(offers, categories, matchItemsLimit = 3) {
                         }
                     } 
                     // Also check if the item contains the product name
-                    // This helps with cases where the product is a more specific version
                     else if (item.toLowerCase().includes(productName.toLowerCase()) && 
                              productName.length > 4) {
                         matchCount += 2;
@@ -252,7 +353,6 @@ function categorizeOffers(offers, categories, matchItemsLimit = 3) {
                         const itemCoverage = matchedItemWords.size / itemWords.length;
                         
                         // Weighted accuracy: considers both product and item coverage
-                        // Apply the short word penalty to reduce score for matches based on very short words
                         let matchAccuracy = Math.round((productCoverage * 0.7 + itemCoverage * 0.3) * 100);
                         
                         // Apply penalty if we're only matching based on short words
@@ -273,7 +373,6 @@ function categorizeOffers(offers, categories, matchItemsLimit = 3) {
                         // Only consider matches with reasonable accuracy
                         if (matchAccuracy >= minThreshold) {
                             // Add item with its accuracy and category
-                            // Check if this item is already in the array
                             const existingIndex = matchedItems.findIndex(
                                 mi => mi.name === item && mi.category === category.category
                             );
@@ -298,19 +397,30 @@ function categorizeOffers(offers, categories, matchItemsLimit = 3) {
         });
         
         // Sort matched items by accuracy (highest first)
-        matchedItems.sort((a, b) => b.accuracy - a.accuracy);
+        matchedItems.sort((a, b) => {
+            // If accuracy difference is significant, sort by accuracy
+            if (Math.abs(b.accuracy - a.accuracy) > 10) {
+                return b.accuracy - a.accuracy;
+            }
+            
+            // Otherwise, consider category priority when accuracies are close
+            const priorityA = CATEGORY_PRIORITY[a.category] || 0;
+            const priorityB = CATEGORY_PRIORITY[b.category] || 0;
+            
+            return priorityB - priorityA;
+        });
         
         // Apply match items limit if specified
         if (matchItemsLimit > 0 && matchedItems.length > matchItemsLimit) {
             matchedItems = matchedItems.slice(0, matchItemsLimit);
         }
         
-        // Get the top category with highest accuracy score
+        // Get the top category with highest accuracy/priority score
         let primaryCategory = "Ukendt";
         const highestAccuracy = matchedItems.length > 0 ? matchedItems[0].accuracy : 0;
         
         if (matchedItems.length > 0) {
-            // Use the category of the highest accuracy match
+            // Use the category of the highest accuracy/priority match
             primaryCategory = matchedItems[0].category;
         }
         
@@ -332,17 +442,69 @@ function categorizeOffers(offers, categories, matchItemsLimit = 3) {
  * @param {Number} matchItemsLimit - Maximum number of matched items to keep per offer (0 = no limit)
  * @returns {Array} - The filtered offers
  */
-function filterPreparedMeals(categorizedOffers, accuracyThreshold = 30, matchItemsLimit = 0) {
+function filterPreparedMeals(categorizedOffers, accuracyThreshold = 40, matchItemsLimit = 0) {
+    // List of brands or terms that often appear in non-food items
+    const NON_FOOD_INDICATORS = [
+        "magazine", "magasin", "blad", "avis", "bog", "kupon", "sæbe", "vaskepulver",
+        "shampo", "shampoo", "balsam", "shower", "bad", "toilet", "rengøring",
+        "rengøring", "vask", "opvask", "opvaskemiddel", "batteri", "batterier",
+        "lighter", "tændstik", "serviet", "toiletpapir", "køkkenrulle", "ble",
+        "tandpasta", "tandbørste", "deodorant", "creme", "lotion", "parfume",
+        "parfyme", "duft", "lys", "stearinlys", "vinduespudser", "vinduespudsning",
+        "vaskemaskine", "opvaskemaskine", "tørretumbler", "tørretumbling",
+        "vaskemiddel", "opvaskemiddel", "skyllemiddel", "skyllemiddel",
+        "skylle", "skylning", "rens", "rensning", "renser", "rensemiddel",
+        "rensemidler", "rensning", "rensning", "rensning", "rensning",
+        "sokker", "strømper", "undertøj", "tøj", "tøjvask", "bukser",
+        "skjorte", "sko", "støvler", "jakke", "frakke", "hat", "hue",
+        "vanter", "handsker", "tørklæde", "halstørklæde", "bælte", "slips",
+        "plastik kasse", "plastikkasse", "kasse", "kasser", "skab", "skabe",
+        "skuffe", "skuffer", "bord", "borde", "stol", "stole", "sofa", "sofaer",
+        "lampe", "lamper", "ledning", "ledninger", "stik",
+        "battery", "batteries", "lighter", "matches", "soap", "detergent",
+        "puder", "dyne", "dyner", "sengetøj", "sengetøjs", "senge", "seng",
+        "madrasser", "madras", "pudebetræk", "dynebetræk", "lagnet", "lagner",
+
+    ];
+    
     const filteredOffers = categorizedOffers.filter(offer => {
         // Filter out obvious prepared meals (low match accuracy or unknown category)
         if (offer.categories[0] === "Ukendt" || offer.matchAccuracy < accuracyThreshold) {
             return false;
         }
         
+        const lowerName = offer.name.toLowerCase();
+        
+        // Check for non-food terms
+        for (const term of NON_FOOD_INDICATORS) {
+            if (lowerName.includes(term)) {
+                return false;
+            }
+        }
+        
         // Check the offer name for prepared meal indicators
         const preparedMealPenalty = getPreparedMealPenalty(offer.name);
         if (preparedMealPenalty > 40) {
             return false; // Strong indication of prepared meal
+        }
+        
+        // Identify and filter out suspected prepared meals based on name patterns
+        if (lowerName.match(/(\w+) med (\w+)/) && offer.matchAccuracy < 70) {
+            // "X med Y" is often a prepared meal, unless we have high confidence it's a component
+            return false;
+        }
+        
+        // Reject items with too many words (likely complex prepared meals) unless very high confidence
+        const wordCount = lowerName.split(/\s+/).length;
+        if (wordCount >= 5 && offer.matchAccuracy < 70) {
+            return false;
+        }
+        
+        // Identify alcohol and beverage products which aren't food components
+        if (offer.categories[0] === "Ukendt" && 
+            (lowerName.match(/\b(øl|vin|spiritus|vodka|gin|rom|whisky|cognac)\b/) ||
+             lowerName.match(/\b(sodavand|soda|cola|fanta|sprite|juice|drik|vand)\b/))) {
+            return false;
         }
         
         // Keep this offer
