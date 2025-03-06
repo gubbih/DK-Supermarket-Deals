@@ -117,6 +117,23 @@ function areSimilarDanishWords(word1, word2) {
         ['ris', 'pris'],      // Blocks "ris" matching with "pris"
         ['løg', 'løgismose'], // Blocks "Løg" matching with "Løgkompot"
         ['chips', 'chili'],
+        ['æg', 'pålæg'],     // Blocks "æg" matching with "pålæg"
+        ['æg', 'Påskeæg'],    // Blocks "æg" matching with "Påskeæg"
+        ['æg', 'marcipanæg'],    // Blocks "æg" matching with "marcipanæg"
+        ['æg', "M&M's æg"],    // Blocks "æg" matching with "M&M's æg"
+        ['æg', 'Marabou æg'],    // Blocks "æg" matching with "Marabou æg"
+        ['æg', 'KitKat mini æg'],    // Blocks "æg" matching with "KitKat mini æg"
+        ['æg', 'Kinder æg'],    // Blocks "æg" matching with "Kinder æg"
+        ['æg', 'Kinder Maxi æg'],    // Blocks "æg" matching with "Kinder Maxi æg"
+        ['æg', 'flammeæg'],    // Blocks "æg" matching with "flammeæg"
+        ['æg', 'sukkeræg'],    // Blocks "æg" matching with "sukkeræg"
+        ['æg', 'chokoladeæg'],    // Blocks "æg" matching with "chokoladeæg"
+        ['æg', 'glasæg'],    // Blocks "æg" matching with "glasæg"
+        ['æg', 'plastæg'],    // Blocks "æg" matching with "plastæg"
+        ['æg', 'metalæg'],    // Blocks "æg" matching with "metalæg"
+        ['æg', 'papæg'],    // Blocks "æg" matching with "papæg"
+        ['æg', 'Ungkvæg'],    // Blocks "æg" matching with "Ungkvæg"    
+
     ];
     
     // Check if this pair is blocked
@@ -271,7 +288,8 @@ function categorizeOffers(offers, categories, matchItemsLimit = 2) {
         let processedOfferName = expandHyphenatedWords(offer.name);
         
         // Special handling for Danish eggs ("æg")
-        const hasEgg = /\bæg\b|\bægs\b|\bskrabeæg\b|\bøkoæg\b/i.test(processedOfferName);
+        const hasEgg = /\bæg\b|\bægs\b|\bskrabeæg\b|\bøkoæg\b/i.test(processedOfferName) && 
+               !processedOfferName.toLowerCase().includes('pålæg');
         
         // Split the offer name by common separators
         let productNames = processedOfferName
@@ -462,12 +480,20 @@ function filterPreparedMeals(categorizedOffers, accuracyThreshold = 40, matchIte
         "vanter", "handsker", "tørklæde", "halstørklæde", "bælte", "slips",
         "plastik kasse", "plastikkasse", "kasse", "kasser", "skab", "skabe",
         "skuffe", "skuffer", "bord", "borde", "stol", "stole", "sofa", "sofaer",
-        "lampe", "lamper", "ledning", "ledninger", "stik",
+        "lampe", "lamper", "ledning", "ledninger", "stik", "påskeophæng",
+        "juleophæng", "julepynt", "påskepynt", "pynt", "ophæng", "ophængning",
+        "LED", "lyskæde", "lyskæder", "juletræ", "juletræer", "julestjerne", "træfigur",
         "battery", "batteries", "lighter", "matches", "soap", "detergent",
         "puder", "dyne", "dyner", "sengetøj", "sengetøjs", "senge", "seng",
         "madrasser", "madras", "pudebetræk", "dynebetræk", "lagnet", "lagner",
         "Aida Relief blå", "Aida Relief rød", "Aida Relief grøn", "Aida Relief gul",
         "Aida Relief sort", "Aida Relief hvid", "Aida Relief orange", "Aida Relief lilla",
+        "polyfoam","papæg", "metalæg", "glasæg", "plastæg", "trææg", "flammeæg", "bloklys",
+        "servietter", "tallerkner", "glas", "bestik", "bestik", "kopper", "krus", "fade",
+        "skåle", "skål", "bakker", "bakke", "kander", "kande", "karafler", "karafler",
+        "vaser", "vase", "potter", "potte", "krukker", "krukke", "fade", "fad", "skåle",
+        "kaktus", "kaktusser", "sukkulenter", "Trusseindlæg", "bind", "tamponer", "tampon",
+        "trusser", "trusse", 
 
     ];
     
